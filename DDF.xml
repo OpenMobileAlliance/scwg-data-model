@@ -6323,6 +6323,20 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
         <Owner>autosen</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/10494-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10494</ObjectID>
+        <URN>urn:oma:lwm2m:x:10494:1.1</URN>
+        <Name>Periodic Sensor Sampler</Name>
+        <Description>The autosen Periodic Sensor Sampler object can be used to sample one or more sensor value(s) at periodic intervals</Description>
+        <Owner>autosen</Owner>
+        <Source>2</Source>
+        <Ver>1.1</Ver>
         <DDF>10494.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
