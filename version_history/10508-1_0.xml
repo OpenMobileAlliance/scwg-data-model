@@ -35,8 +35,8 @@ POSSIBILITY OF SUCH DAMAGE.
     <Object ObjectType="MODefinition">
         <Name>Electrical Conductivity Alarm</Name>
         <Description1><![CDATA[This alarm is raised when the electrical conductivity of the device exceeds the specified threshold]]></Description1>
-        <ObjectID>33013</ObjectID>
-        <ObjectURN>urn:oma:lwm2m:x:33013</ObjectURN>
+        <ObjectID>10508</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:10508</ObjectURN>
         <LWM2MVersion>1.0</LWM2MVersion>
         <ObjectVersion>1.0</ObjectVersion>
         <MultipleInstances>Multiple</MultipleInstances>

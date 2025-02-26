@@ -35,8 +35,8 @@ POSSIBILITY OF SUCH DAMAGE.
     <Object ObjectType="MODefinition">
         <Name>Electrical Conductivity Readings</Name>
         <Description1><![CDATA[Periodic electrical conductivity measurements]]></Description1>
-        <ObjectID>33012</ObjectID>
-        <ObjectURN>urn:oma:lwm2m:x:33012</ObjectURN>
+        <ObjectID>10507</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:10507</ObjectURN>
         <LWM2MVersion>1.0</LWM2MVersion>
         <ObjectVersion>1.0</ObjectVersion>
         <MultipleInstances>Multiple</MultipleInstances>
