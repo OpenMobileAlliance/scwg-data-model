@@ -6528,28 +6528,28 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
     <Item>
         <ObjectID>10507</ObjectID>
         <URN>urn:oma:lwm2m:x:10507</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10507</Description>
-        <Owner>TBD</Owner>
+        <Name>Electrical Conductivity Readings</Name>
+        <Description>Periodic electrical conductivity measurements</Description>
+        <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10507.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10508</ObjectID>
         <URN>urn:oma:lwm2m:x:10508</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10508</Description>
-        <Owner>TBD</Owner>
+        <Name>Electrical Conductivity Alarm</Name>
+        <Description>This alarm is raised when the electrical conductivity of the device exceeds the specified threshold</Description>
+        <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10508.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
