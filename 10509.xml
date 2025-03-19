@@ -108,7 +108,7 @@ All Frequency Values(2)  for this mode, the median for values for all frequency 
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units>s</Units>
-                <Description><![CDATA[The Samples Interval resource is a readable and writeable resource used to control the interval (in seconds) between each sample in a window]]></Description>
+                <Description><![CDATA[The Sample Interval resource is a readable and writeable resource used to control the interval (in seconds) between each sample in a window]]></Description>
             </Item>
             <Item ID="6">
                 <Name>AUC Lower Frequency</Name>
