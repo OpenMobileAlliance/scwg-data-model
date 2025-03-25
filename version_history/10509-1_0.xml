@@ -71,9 +71,9 @@ POSSIBILITY OF SUCH DAMAGE.
                 <RangeEnumeration>0..2</RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Payload Type is a readable and writeable resource used to indicate which payload type to report to the LWM2M server. Values are one of:-
-0. Disabled
-1. AUC (default)
-2. All Frequency Values
+0: Disabled
+1: AUC (default)
+2: All Frequency Values
 
 Disabled (0)  The leak detection payload generation should be disabled.
 AUC (1)  For this mode, only the mean AUC (area under curve) for all samples in the sampling window within the defined frequency range will be delivered to the LwM2M server via the Latest Payload Resource
@@ -108,7 +108,7 @@ All Frequency Values(2)  for this mode, the median for values for all frequency 
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units>s</Units>
-                <Description><![CDATA[The Samples Interval resource is a readable and writeable resource used to control the interval (in seconds) between each sample in a window]]></Description>
+                <Description><![CDATA[The Sample Interval resource is a readable and writeable resource used to control the interval (in seconds) between each sample in a window]]></Description>
             </Item>
             <Item ID="6">
                 <Name>AUC Lower Frequency</Name>
