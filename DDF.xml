@@ -933,9 +933,23 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
-        <Item>
+    <Item>
         <ObjectID>512</ObjectID>
         <URN>urn:oma:lwm2m:oma:512</URN>
+        <Name>TBD</Name>
+        <Description>TBD</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>513</ObjectID>
+        <URN>urn:oma:lwm2m:oma:513</URN>
         <Name>TBD</Name>
         <Description>TBD</Description>
         <Owner>OMA</Owner>
