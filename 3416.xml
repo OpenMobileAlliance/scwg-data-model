@@ -101,7 +101,13 @@ The command in action is the actual value of the command in action in the outdoo
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[Description of the reason why the lamp failed (e.g. low power on a LED engine, no consumption detected while relay closed).]]></Description>
+				<Description><![CDATA[Description of the reason why the lamp failed (e.g. low power on a LED engine, no consumption detected while relay closed).
+The following bit mask can be used to differentiate the reason of the failure:
+  0: Generic Failure
+  1: Open_Circuit
+  2: Short_Circuit
+  3: Thermal Derating
+  4: Thermal Shutdown]]></Description>
 			</Item>
 			<Item ID="7">
 				<Name>Control gear failure</Name>
@@ -123,7 +129,14 @@ Outdoor lamp controllers may read the control gear failure from a DALI bus or by
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Description of the reason why the control gear failed.
-You may refer to the DiiA list of possible control gear failures.]]></Description>
+You may refer to the DiiA list of possible control gear failures.
+The following bit mask can be used to differentiate the reason of the failure:
+  0: Generic Failure
+  1: Thermal Derating
+  2: Thermal Shutdown
+  3: External Supply Undervoltage
+  4: External Supply Overvoltage
+  5: Output Power Limitation]]></Description>
 			</Item>
 			<Item ID="9">
 				<Name>Relay failure</Name>
@@ -164,26 +177,6 @@ You may refer to the DiiA list of possible control gear failures.]]></Descriptio
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Set to True in case the control gear (e.g. LED driver) does not answer on the DALI bus.]]></Description>
-			</Item>
-			<Item ID="13">
-				<Name>Scheduler ID</Name>
-				<Operations>RW</Operations>
-				<MultipleInstances>Multiple</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Identifier(s) of the scheduler(s) that are assigned to the Command of this outdoor lamp controller.]]></Description>
-			</Item>
-			<Item ID="14">
-				<Name>Invalid scheduler</Name>
-				<Operations>R</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type>Boolean</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Set to True when one of the schedulers can’t be executed or is not supported by the outdoor lamp controller. Otherwise set to False.]]></Description>
 			</Item>
 			<Item ID="15">
 				<Name>Lamp operating hours</Name>
@@ -243,7 +236,7 @@ You may refer to the DiiA list of possible control gear failures.]]></Descriptio
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[Number of times the control gear was switched from ON to OFF.]]></Description>
+				<Description><![CDATA[Number of times the control gear was switched from OFF to ON.]]></Description>
 			</Item>
 			<Item ID="21">
 				<Name>Control gear temperature</Name>
@@ -686,16 +679,7 @@ On drivers supporting DALI part 253, this should trigger the controller to reset
 				<Units></Units>
 				<Description><![CDATA[Version of DALI implementation as a string (to allow future extensions)]]></Description>
 			</Item>
-			<Item ID="62">
-				<Name>Unit temperature</Name>
-				<Operations>R</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type>Float</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units>Cel</Units>
-				<Description><![CDATA[Temperature associated to the Control Gear in Celsius Degrees as per DiiA specification]]></Description>
-			</Item>
+
 			<Item ID="63">
 				<Name>Device capabilities</Name>
 				<Operations>R</Operations>
@@ -730,6 +714,78 @@ bit 7: Sensor Ready Power Type: Apparent Energy]]></Description>
 				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
 				<Description><![CDATA[True if the maximum number of hours that a lamp could be on has been exceeded (end of life)]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="66">
+				<Name>Control Gear overall failure condition counter</Name>
+				<Type>Integer</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Overall counter of failure conditions detected on the Control Gear]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="67">
+				<Name>Control Gear external supply under voltage</Name>
+				<Type>Boolean</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[True if an under voltage condition is being currently detected on the external supply]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="68">
+				<Name>Control Gear external supply under voltage counter</Name>
+				<Type>Integer</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Counter of how many times an under voltage condition has been detected]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="69">
+				<Name>Control Gear external supply over voltage</Name>
+				<Type>Boolean</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[True if an over voltage condition is being currently detected on the external supply]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="70">
+				<Name>Control Gear external supply over voltage counter</Name>
+				<Type>Integer</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Counter of how many times an over voltage condition has been detected]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="71">
+				<Name>Control Gear output power limitation</Name>
+				<Type>Boolean</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[True if the output power is currently being limited]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="72">
+				<Name>Control Gear external output power limitation counter</Name>
+				<Type>Integer</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Counter of how many times the output power has been limited]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="73">
+				<Name>Light Source overall failure condition counter</Name>
+				<Type>Integer</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Overall counter of failure conditions detected on the Light Source]]></Description>
 				<Units></Units>
 			</Item>
 			<Item ID="5518">
