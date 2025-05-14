@@ -43,115 +43,128 @@
 		<Resources>
 			<Item ID="0">
 				<Name>Max number of Program Schedulers</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Maximum number of program schedulers supported by the device.
 Can be eventually adjusted in order to reserve more or less memory.]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="1">
 				<Name>Current number of Program Schedulers</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Number of program schedulers currently allocated.]]></Description>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units/>
+				<Description><![CDATA[Number of program schedulers currently allocated.]]></Description>
 			</Item>
 			<Item ID="2">
 				<Name>Max number of Program Functions</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Maximum number of program functions supported by the device.
 Can be eventually adjusted in order to reserve more or less memory.]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="3">
 				<Name>Current number of Program Functions</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Number of program functions currently allocated.]]></Description>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units/>
+				<Description><![CDATA[Number of program functions currently allocated.]]></Description>
 			</Item>
 			<Item ID="4">
 				<Name>Max number of Calendars</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Maximum number of calendars supported by the device.
 Can be eventually adjusted in order to reserve more or less memory.]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="5">
 				<Name>Current number of Calendar</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Number of calendars currently allocated.]]></Description>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units/>
+				<Description><![CDATA[Number of calendars currently allocated.]]></Description>
 			</Item>
 			<Item ID="6">
 				<Name>Max number of Actuators</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Maximum number of target actuators supported.
 Can be eventually adjusted in order to reserve more or less memory.]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="7">
 				<Name>Max number of Input Sources</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Maximum number of input sources supported.
 Can be eventually adjusted in order to reserve more or less memory.]]></Description>
-				<Units/>
 			</Item><Item ID="8">
 				<Name>Max number of Dates in Calendar</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Maximum number of start/end date in Calendar supported.
 Can be eventually adjusted in order to reserve more or less memory.]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="9">
 				<Name>Max Flash Memory Allocated</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units>B</Units>
 				<Description><![CDATA[Max flash memory (in bytes) to be allocated.
 Can be eventually adjusted in order to reserve more or less memory]]></Description>
-				<Units>B</Units>
 			</Item>
 			<Item ID="10">
 				<Name>Flash Memory Free</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Free flash memory in bytes]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>B</Units>
+				<Description><![CDATA[Free flash memory in bytes]]></Description>
 			</Item>
 			<Item ID="11">
 				<Name>Error Conditions</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Bitmap
 Bit 0: No valid program 
 Bit 1: Missing configuration objects 
@@ -162,24 +175,26 @@ Bit 5: Invalid function format
 Bit 6: Out of storage memory
 Bit 7: Out of runtime memory
 Bit 8..31: reserved for future use]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="12">
 				<Name>Clear errors</Name>
-				<Type/>
 				<Operations>E</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type/>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[When executed, clears temporary error conditions.
 To be noted that some of the errors may require to change the content of other objects to be completely cleared.]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="13">
 				<Name>Supported Capabilities</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
 				<Description><![CDATA[Bitmap
 Bit 0: Astronomical Events
 Bit 1: Single sensor Inputs
@@ -191,35 +206,37 @@ Bit 6: Compound Operations
 Bit 7: Second granularity (for fixed time expressions)
 Bit 8: Astronomical Midnight
 Bit 9: Off when inactive]]></Description>
-				<Units/>
 			</Item>
 			<Item ID="14">
 				<Name>Max Dynamic Memory Allocated</Name>
-				<Type>Integer</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units>B</Units>
 				<Description><![CDATA[Max RAM memory (in bytes) to be allocated.
 Can be eventually adjusted in order to reserve more or less memory]]></Description>
-				<Units>B</Units>
 			</Item>
 			<Item ID="15">
 				<Name>Dynamic Memory Free</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Free RAM memory in bytes]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>B</Units>
+				<Description><![CDATA[Free RAM memory in bytes]]></Description>
 			</Item>
 			<Item ID="16">
 				<Name>Reset schedule objects</Name>
-				<Type/>
 				<Operations>E</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[When executed, trigger a complete wipe of schedules already commissioned]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type/>
+				<RangeEnumeration></RangeEnumeration>
 				<Units/>
+				<Description><![CDATA[When executed, trigger a complete wipe of schedules already commissioned]]></Description>
 			</Item>
 		</Resources>
 		<Description2/>

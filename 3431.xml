@@ -35,9 +35,9 @@
 		<Name>Parking Sensor</Name>
 		<Description1>The uCIFI parking sensor provides actual and cumulated occupancy duration as well as forbidden parking detection.</Description1>
 		<ObjectID>3431</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:ext:3431:1.1</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:ext:3431:1.2</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
-		<ObjectVersion>1.1</ObjectVersion>
+		<ObjectVersion>1.2</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
@@ -90,6 +90,52 @@
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description>Type of sensor (e.g. PIR, camera).</Description>
+			</Item>
+			<Item ID="6">
+				<Name>Occupancy Start Time</Name>
+				<Type>Time</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Timestamp when the parking occupancy started. If not occupied, shows the starts of the last occupation.]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="7">
+				<Name>Parking Area</Name>
+				<Type>String</Type>
+				<Operations>RW</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Identification of the parking area]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="8">
+				<Name>Parking Lot</Name>
+				<Type>String</Type>
+				<Operations>RW</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Identification of the parking lot]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="9">
+				<Name>License Plate</Name>
+				<Type>String</Type>
+				<Operations>R</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Identification of license plate of parked vehicle. If not occupied, shows the license plate of the last occupation
+If unkown, an empty string is returned]]></Description>
+				<Units></Units>
+			</Item>
+			<Item ID="10">
+				<Name>Vendor Attributes</Name>
+				<Type>String</Type>
+				<Operations>RW</Operations>
+				<Mandatory>Optional</Mandatory>
+				<MultipleInstances>Single</MultipleInstances>
+				<Description><![CDATA[Additional attributes that could be provided by vendor]]></Description>
+				<Units></Units>
 			</Item>
 			<Item ID="5518">
 				<Name>Timestamp</Name>

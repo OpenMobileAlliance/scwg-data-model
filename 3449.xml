@@ -35,12 +35,32 @@
 		<Name>Anemometer</Name>
 		<Description1>The uCIFI anemometer is a sensor used to record speed and direction of wind. It is designed following the IPSO object reference.</Description1>
 		<ObjectID>3449</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:ext:3449</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:ext:3449:1.1</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
-		<ObjectVersion>1.0</ObjectVersion>
+		<ObjectVersion>1.1</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
+			<Item ID="1">
+				<Name>Direction at maximum wind velocity</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration>0..360</RangeEnumeration>
+				<Units>deg</Units>
+				<Description>Direction at maximum wind velocity.</Description>
+			</Item>
+			<Item ID="2">
+				<Name>Averaging period</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration/>
+				<Units>s</Units>
+				<Description>Period over which performing an average to compute the wind velocity.</Description>
+			</Item>
 			<Item ID="5700">
 				<Name>Sensor Value</Name>
 				<Operations>R</Operations>
