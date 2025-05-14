@@ -100,6 +100,7 @@ Instance 0 of this resource is reserved for Vehicle type = 1 (Vehicle of any typ
 44=Vehicle (of unspecified type) towing a trailer.
 45n=Vehicle with even numbered registration plate.
 46=Vehicle with odd numbered registration plate.
+47=Pedestrian.
 99=Unknown.
 100=Other than as defined in this enumeration.]]></Description>
 			</Item>
@@ -273,6 +274,46 @@ Instance 0 of this resource is reserved for Vehicle type = 1 (Vehicle of any typ
 				<Units></Units>
 				<Description>Percentage of vehicles driving above speed limit.</Description>
 			</Item>
+			<Item ID="18">
+				<Name>Cumulated number (forward)</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Multiple</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description>Cumulated count value in forward direction.</Description>
+			</Item>
+			<Item ID="19">
+				<Name>Cumulated number (reverse)</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Multiple</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description>Cumulated count value in reverse direction.</Description>
+			</Item>
+			<Item ID="20">
+				<Name>Label</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description>Label name of area type in which the object is to be analyzed.</Description>
+			</Item>
+			<Item ID="21">
+				<Name>UID</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description>ID of area type in which the object is to be analyzed.</Description>
+			</Item>
 			<Item ID="5518">
 				<Name>Timestamp</Name>
 				<Operations>R</Operations>
@@ -282,6 +323,16 @@ Instance 0 of this resource is reserved for Vehicle type = 1 (Vehicle of any typ
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description>The timestamp of when the measurement was performed.</Description>
+			</Item>
+			<Item ID="5751">
+				<Name>Sensor Type</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description>Could specify type of sensor such as line or area</Description>
 			</Item>
 			<Item ID="6050">
 				<Name>Fractional Timestamp</Name>
