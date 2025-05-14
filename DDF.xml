@@ -4186,6 +4186,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3446-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3446</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3446:1.1</URN>
+        <Name>Rain Gauge</Name>
+        <Description>The uCIFI rain gauge is a device that measures the quantity of rain fall.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
         <DDF>3446.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4441,6 +4455,34 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <DDF></DDF>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3463</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3463</URN>
+        <Name>uCIFI Test Object</Name>
+        <Description>The uCIFI Test Object can be used to simply simulate external stimulus, anomalous conditions, or any kind of alarm.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>3463.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3464</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3464</URN>
+        <Name>uCIFI Virtual Sensor</Name>
+        <Description>A virtual sensor may hold any kind of value to be read or written by the user and being possibly used elsewhere</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>3464.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
