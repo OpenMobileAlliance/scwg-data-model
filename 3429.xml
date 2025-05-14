@@ -101,6 +101,76 @@
 				<Units></Units>
 				<Description>Set to True if the angle is above the out of position threshold.</Description>
 			</Item>
+			<Item ID="7">
+				<Name>Calibration Start</Name>
+				<Operations>E</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type></Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Start the calibration process.]]></Description>
+			</Item>
+			<Item ID="8">
+				<Name>Calibration Completed</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[True if the calibration has been successfully completed.]]></Description>
+			</Item>
+			<Item ID="9">
+				<Name>Angle Zero Calibration</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units>rad</Units>
+				<Description><![CDATA[Angle detected upon calibration.]]></Description>
+			</Item>
+			<Item ID="10">
+				<Name>Shock Threshold</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Threshold for detecting shock events. If unit is not provided, g is assumed.]]></Description>
+			</Item>
+			<Item ID="11">
+				<Name>Shock Unit</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Unit related to Shock Threshold value]]></Description>
+			</Item>
+			<Item ID="12">
+				<Name>Shock Detected</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[True if a Shock event has been detected]]></Description>
+			</Item>
+			<Item ID="13">
+				<Name>Shock Clear</Name>
+				<Operations>E</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type></Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Execute to acknowledge and clear a  pending Shock Detection event.]]></Description>
+			</Item>
 			<Item ID="5518">
 				<Name>Timestamp</Name>
 				<Operations>R</Operations>
