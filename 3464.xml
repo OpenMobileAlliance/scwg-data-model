@@ -62,5 +62,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND 
 				<Description>Sensor value in string format</Description>
 			</Item>
 		</Resources>
+		<Description2></Description2>
 	</Object>
 </LWM2M>

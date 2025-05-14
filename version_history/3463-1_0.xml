@@ -23,40 +23,45 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 		<Resources>
 			<Item ID="0">
 				<Name>Test Mode Enabled</Name>
-				<Type>Boolean</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description>Return the status of the test mode. If password protection is enforced, test mode cannot be enabled by writing to this resource. Devices in production may automatically disable test mode after a certain period of time</Description>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description>Return the status of the test mode. If password protection is enforced, test mode cannot be enabled by writing to this resource. Devices in production may automatically disable test mode after a certain period of time</Description>
 			</Item>
 			<Item ID="1">
 				<Name>Test Mode Password</Name>
-				<Type>String</Type>
 				<Operations>W</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description>If password protection is enforced, test mode can be enabled only after writing the appropriate password</Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description>If password protection is enforced, test mode can be enabled only after writing the appropriate password</Description>
 			</Item>
 			<Item ID="2">
 				<Name>Test Mode Uri</Name>
-				<Type>String</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description>Resource uri in core link syntax</Description>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description>Resource uri in core link syntax</Description>
 			</Item>
 			<Item ID="3">
 				<Name>Test Mode Value</Name>
-				<Type>String</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Mandatory</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description>Value to be written to the given resource</Description>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description>Value to be written to the given resource</Description>
 			</Item>
 		</Resources>
+		<Description2></Description2>
 	</Object>
 </LWM2M>
