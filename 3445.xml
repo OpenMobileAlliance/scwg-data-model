@@ -151,6 +151,66 @@
 				<Units/>
 				<Description>Number of Alarm B events since reset.</Description>
 			</Item>
+			<Item ID="12">
+				<Name>Threshold C</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration/>
+				<Units>m</Units>
+				<Description>If the water Level exceeds this value, the alarm C is set to True. This alarm has lowest severity. A value of 0 or less disables the alarm.</Description>
+			</Item>
+			<Item ID="13">
+				<Name>Alarm C</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration/>
+				<Units/>
+				<Description>If the water Level exceeds the value in Threshold C, Alarm C is set to True. Alarm C is false otherwise.</Description>
+			</Item>
+			<Item ID="14">
+				<Name>Alarm C Counter</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration/>
+				<Units/>
+				<Description>Number of Alarm C events since reset.</Description>
+			</Item>
+			<Item ID="15">
+				<Name>Threshold D</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration/>
+				<Units>m</Units>
+				<Description>If the water Level exceeds this value, the alarm D is set to True. This alarm has lowest severity. A value of 0 or less disables the alarm.</Description>
+			</Item>
+			<Item ID="16">
+				<Name>Alarm D</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration/>
+				<Units/>
+				<Description>If the water Level exceeds the value in Threshold D, Alarm D is set to True. Alarm D is false otherwise.</Description>
+			</Item>
+			<Item ID="17">
+				<Name>Alarm D Counter</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration/>
+				<Units/>
+				<Description>Number of Alarm D events since reset.</Description>
+			</Item>
 			<Item ID="5518">
 				<Name>Timestamp</Name>
 				<Operations>R</Operations>
