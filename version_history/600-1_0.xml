@@ -292,7 +292,7 @@
 				<Description><![CDATA[Set to True when current 1 is below low current threshold.]]></Description>
 			</Item>
 			<Item ID="26">
-				<Name>L1 Low current</Name>
+				<Name>L2 Low current</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -302,7 +302,7 @@
 				<Description><![CDATA[Set to True when current 2 is below low current threshold.]]></Description>
 			</Item>
 			<Item ID="27">
-				<Name>L1 Low current</Name>
+				<Name>L3 Low current</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -322,7 +322,7 @@
 				<Description><![CDATA[Set to True when current 1 is above high current threshold.]]></Description>
 			</Item>
 			<Item ID="29">
-				<Name>L1 High current</Name>
+				<Name>L2 High current</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -332,7 +332,7 @@
 				<Description><![CDATA[Set to True when current 2 is above high current threshold.]]></Description>
 			</Item>
 			<Item ID="30">
-				<Name>L1 High current</Name>
+				<Name>L3 High current</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -383,7 +383,7 @@
 			</Item>
 			<Item ID="35">
 				<Name>Low voltage threshold</Name>
-				<Operations>R</Operations>
+				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
@@ -393,7 +393,7 @@
 			</Item>
 			<Item ID="36">
 				<Name>High voltage threshold</Name>
-				<Operations>R</Operations>
+				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
@@ -403,7 +403,7 @@
 			</Item>
 			<Item ID="37">
 				<Name>Low current threshold</Name>
-				<Operations>R</Operations>
+				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
@@ -413,7 +413,7 @@
 			</Item>
 			<Item ID="38">
 				<Name>High current threshold</Name>
-				<Operations>R</Operations>
+				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
