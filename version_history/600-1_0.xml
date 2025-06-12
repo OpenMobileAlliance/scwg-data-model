@@ -39,7 +39,7 @@
 		<Name>Cabinet Controller Status</Name>
 		<Description1>The OMA Cabinet Controller Status shall provide electrical measurements related to street lines.</Description1>
 		<ObjectID>600</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:ext:600</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:oma:600</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
 		<ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
