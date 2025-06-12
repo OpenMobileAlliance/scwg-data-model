@@ -39,7 +39,7 @@
 		<Name>Computational Performance</Name>
 		<Description1>The OMA Computational Performance object provides attributes to monitor the load on various aspects of the system.</Description1>
 		<ObjectID>602</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:ext:602</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:oma:602</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
 		<ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
