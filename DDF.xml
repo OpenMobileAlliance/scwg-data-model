@@ -963,7 +963,7 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
     </Item>
     <Item>
         <ObjectID>602</ObjectID>
-        <URN>urn:oma:lwm2m:ext:602</URN>
+        <URN>urn:oma:lwm2m:oma:602</URN>
         <Name>Computational Performance</Name>
         <Description>The OMA Computational Performance object provides attributes to monitor the load on various aspects of the system.</Description>
         <Owner>OMA</Owner>
