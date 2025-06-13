@@ -332,7 +332,7 @@ Instance 0 of this resource is reserved for Vehicle type = 1 (Vehicle of any typ
 				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description>Could specify type of sensor such as line or area</Description>
+				<Description>The type of the sensor (for instance PIR type).</Description>
 			</Item>
 			<Item ID="6050">
 				<Name>Fractional Timestamp</Name>
