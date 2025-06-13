@@ -52,7 +52,7 @@
 				<Mandatory>Optional</Mandatory>
 				<Type>Integer</Type>
 				<RangeEnumeration/>
-				<Units>bps</Units>
+				<Units>bit/s</Units>
 				<Description><![CDATA[Speed of communication interface (e.g.serial).]]></Description>
 			</Item>
 			<Item ID="2">
