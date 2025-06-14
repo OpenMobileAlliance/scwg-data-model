@@ -66,7 +66,7 @@
 				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
-				<Description><![CDATA[String Identifying the name of the process for which the statics held in this object refer to. If present , when Resource “Process ID” is set to 0, this resource should read “ALL processes”]]></Description>
+				<Description><![CDATA[String Identifying the name of the process for which the statics held in this object refer to. If present , when Resource "Process ID" is set to 0, this resource should read "ALL processes"]]></Description>
 			</Item>
 			<Item ID="2">
 				<Name>Measuring period</Name>
@@ -110,7 +110,7 @@ This is a multi-instance resource, to be used if more than one CPU is present on
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units>%</Units>
-				<Description><![CDATA[The threshold for the percentage of CPU usage that once crossed, should be considered a critical event. If a device supports this threshold setting is is expected to also support the “High CPU Usage” resource, once the % threshold set in this resource is crossed “High CPU Usage”  resource should be set to 2.]]></Description>
+				<Description><![CDATA[The threshold for the percentage of CPU usage that once crossed, should be considered a critical event. If a device supports this threshold setting is is expected to also support the "High CPU Usage" resource, once the % threshold set in this resource is crossed "High CPU Usage"  resource should be set to 2.]]></Description>
 			</Item>
 			<Item ID="18">
 				<Name>High CPU Usage</Name>
@@ -163,7 +163,7 @@ This is a multi-instance resource, to be used if more than one CPU is present on
 				<Type>Integer</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units>%</Units>
-				<Description><![CDATA[The threshold for the percentage of available volatile Memory usage that once crossed, should be considered a critical event. If a device supports this threshold setting is is expected to also support the “Low Memory” resource, once the % threshold set in this resource is crossed “Low memory” resource should be set to 2.]]></Description>
+				<Description><![CDATA[The threshold for the percentage of available volatile Memory usage that once crossed, should be considered a critical event. If a device supports this threshold setting is is expected to also support the "Low Memory" resource, once the % threshold set in this resource is crossed "Low memory" resource should be set to 2.]]></Description>
 			</Item>
 			<Item ID="58">
 				<Name>Low Memory</Name>
