@@ -990,6 +990,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <TSLink>0</TSLink>
     </Item>
     <Item>
+        <ObjectID>602</ObjectID>
+        <URN>urn:oma:lwm2m:oma:602</URN>
+        <Name>Computational Performance</Name>
+        <Description>The OMA Computational Performance object provides attributes to monitor the load on various aspects of the system.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>602.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
         <ObjectID>2048</ObjectID>
         <URN>urn:oma:lwm2m:ext:2048</URN>
         <Name>CmdhPolicy</Name>
@@ -3458,6 +3472,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3412-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3412</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3412:1.1</URN>
+        <Name>LPWAN Communication</Name>
+        <Description>The uCIFI communication object provides attributes related to the communication on the LPWAN network, including multicast grouping.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
         <DDF>3412.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -3906,6 +3934,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.1</Ver>
+        <DDF>version_history/3429-1_1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3429</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3429:1.2</URN>
+        <Name>Tilt sensor</Name>
+        <Description>The uCIFI tilt sensor provides the angle between the object's internal vertical and the perpendicular to the earth.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.2</Ver>
         <DDF>3429.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4004,6 +4046,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>2.0</Ver>
+        <DDF>version_history/3432-2_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3432</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3432:2.1</URN>
+        <Name>Traffic Counter</Name>
+        <Description>The uCIFI traffic counter provides vehicle counting and traffic analysis data. A traffic counting device may implement multiple instances of this traffic counter object, each of them being in charge of counting different categories of vehicles (e.g. bikes, cars, trucks).</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>2.1</Ver>
         <DDF>3432.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4469,20 +4525,6 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <DDF>3461.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS></TS>
-        <TSLink>0</TSLink>
-    </Item>
-    <Item>
-        <ObjectID>3462</ObjectID>
-        <URN>urn:oma:lwm2m:ext:3462</URN>
-        <Name>TBD</Name>
-        <Description>Reservation from 3462 to 3480</Description>
-        <Owner>TBD</Owner>
-        <Source>1</Source>
-        <Ver>1.0</Ver>
-        <DDF></DDF>
-        <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
