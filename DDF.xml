@@ -962,6 +962,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <TSLink>0</TSLink>
     </Item>
     <Item>
+        <ObjectID>602</ObjectID>
+        <URN>urn:oma:lwm2m:oma:602</URN>
+        <Name>Computational Performance</Name>
+        <Description>The OMA Computational Performance object provides attributes to monitor the load on various aspects of the system.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>602.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
         <ObjectID>2048</ObjectID>
         <URN>urn:oma:lwm2m:ext:2048</URN>
         <Name>CmdhPolicy</Name>
@@ -4455,20 +4469,6 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <DDF>3461.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS></TS>
-        <TSLink>0</TSLink>
-    </Item>
-    <Item>
-        <ObjectID>3462</ObjectID>
-        <URN>urn:oma:lwm2m:ext:3462</URN>
-        <Name>TBD</Name>
-        <Description>Reservation from 3462 to 3480</Description>
-        <Owner>TBD</Owner>
-        <Source>1</Source>
-        <Ver>1.0</Ver>
-        <DDF></DDF>
-        <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
