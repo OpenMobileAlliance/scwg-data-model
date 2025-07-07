@@ -40,7 +40,7 @@
 		<Name>Mesh neighbor discovery</Name>
 		<Description1>This object provides visibility of devices neighboring in a mesh network.</Description1>
 		<ObjectID>603</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:x:603</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:oma:602</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
 		<ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Single</MultipleInstances>
