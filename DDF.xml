@@ -4585,10 +4585,24 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <TSLink>0</TSLink>
     </Item>
     <Item>
+        <ObjectID>3465</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3465</URN>
+        <Name>TBD</Name>
+        <Description>Reservation from 3465 to 3480</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
         <ObjectID>3480</ObjectID>
         <URN>urn:oma:lwm2m:ext:3480</URN>
         <Name>TBD</Name>
-        <Description>Reservation from 3462 to 3480</Description>
+        <Description>Reservation from 3465 to 3480</Description>
         <Owner>TBD</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
