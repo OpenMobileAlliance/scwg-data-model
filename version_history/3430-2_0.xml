@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- BSD-3 Clause License
 
-  Copyright 2023 uCIFI Alliance
+  Copyright 2020-2024 uCIFI Alliance
+  Copyright 2025 Open Mobile Alliance
 
   Redistribution and use in source and binary forms, with or without
   modification, are permitted provided that the following conditions
@@ -367,73 +368,81 @@
 			</Item>
 			<Item ID="29">
 				<Name>Expected latitude</Name>
-				<Type>Float</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>lat</Units>
 				<Description><![CDATA[Expected latitude configured by the user. Ignored if 0 or NaN]]></Description>
 			</Item>
 			<Item ID="30">
 				<Name>Expected longitude</Name>
-				<Type>Float</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>lon</Units>
 				<Description><![CDATA[Expected longitude configured by the user. Ignored if 0 or NaN]]></Description>
 			</Item>
 			<Item ID="31">
 				<Name>Expected altitude</Name>
-				<Type>Float</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>m</Units>
 				<Description><![CDATA[Expected altitude configured by the user. Ignored if 0 or NaN]]></Description>
 			</Item>
 			<Item ID="32">
 				<Name>Expected location threshold</Name>
-				<Type>Float</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>m</Units>
 				<Description><![CDATA[Distance threshold from the expected location beyond which the location changed resource will be set. Ignored if 0 or NaN]]></Description>
 			</Item>
 			<Item ID="33">
 				<Name>Out of position</Name>
-				<Type>Boolean</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[True if the current position is distant more than the configured threshold from the expected location]]></Description>
 			</Item>
 			<Item ID="34">
 				<Name>Assisted latitude</Name>
-				<Type>Float</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>lat</Units>
 				<Description><![CDATA[Assisted latitude configured by the user, to be used in case of no coverage. Ignored if 0 or NaN]]></Description>
 			</Item>
 			<Item ID="35">
 				<Name>Assisted longitude</Name>
-				<Type>Float</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>lon</Units>
 				<Description><![CDATA[Assisted longitude configured by the user, to be used in case of no coverage. Ignored if 0 or NaN]]></Description>
 			</Item>
 			<Item ID="36">
 				<Name>Assisted altitude</Name>
-				<Type>Float</Type>
 				<Operations>RW</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Float</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units>m</Units>
 				<Description><![CDATA[Assisted altitude configured by the user, to be used in case of no coverage. Ignored if 0 or NaN]]></Description>
 			</Item>

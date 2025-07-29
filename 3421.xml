@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- BSD-3 Clause License
 
-  Copyright 2023 uCIFI Alliance
+  Copyright 2020-2024 uCIFI Alliance
+  Copyright 2025 Open Mobile Alliance
 
   Redistribution and use in source and binary forms, with or without
   modification, are permitted provided that the following conditions
@@ -217,7 +218,7 @@
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
-				<RangeEnumeration />
+				<RangeEnumeration></RangeEnumeration>
 				<Units>var</Units>
 				<Description>Reactive power import.</Description>
 			</Item>
@@ -247,7 +248,7 @@
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
-				<RangeEnumeration />
+				<RangeEnumeration></RangeEnumeration>
 				<Units>VA</Units>
 				<Description>Instantaneous apparent power export.</Description>
 			</Item>
@@ -267,7 +268,7 @@
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
-				<RangeEnumeration />
+				<RangeEnumeration></RangeEnumeration>
 				<Units>W</Units>
 				<Description>Instantaneous net active power.</Description>
 			</Item>
@@ -367,7 +368,7 @@
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Float</Type>
-				<RangeEnumeration />
+				<RangeEnumeration></RangeEnumeration>
 				<Units>varh</Units>
 				<Description>Reactive energy QIII (-Ri) (unified rate).</Description>
 			</Item>
@@ -613,12 +614,13 @@
 			</Item>
 			<Item ID="58">
 				<Name>Unexpected load</Name>
-				<Type>Boolean</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description>True if an unexpected load is detected, e.g when current is consumed despite the load is supposed to be disconnected</Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
+				<Description>True if an unexpected load is detected, e.g when current is consumed despite the load is supposed to be disconnected</Description>
 			</Item>
 			<Item ID="5518">
 				<Name>Timestamp</Name>

@@ -152,4 +152,4 @@ The following section describes these steps in detail.
  * At the end of the validation, the LwM2M Validator will insert a label in the Pull Request indicating the result of the validation: `Failed Validation` or `Passed Validation`
  * If the validation has failed, then the LwM2M Validator will insert a table with the list of errors identified during the validation
    * The [Error Codes](https://wiki.openmobilealliance.org/display/TOOL/Validation+Error+Code), indicate who should resolve the problem, the Submitter or the Maintainer
- * If the validation has passed, then a green label will be displayed, and the IPSO group will be able to review your submission
+ * If the validation has passed, then a green label will be displayed, and the IPSO group will be able to review your submission.

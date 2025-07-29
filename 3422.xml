@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- BSD-3 Clause License
 
-  Copyright 2023 uCIFI Alliance
+  Copyright 2020-2024 uCIFI Alliance
+  Copyright 2025 Open Mobile Alliance
 
   Redistribution and use in source and binary forms, with or without
   modification, are permitted provided that the following conditions
@@ -393,30 +394,33 @@
 			</Item>
 			<Item ID="36">
 				<Name>L1 Meter Instance</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Instance number of the Single-phase electrical meter associated to line 1]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description><![CDATA[Instance number of the Single-phase electrical meter associated to line 1]]></Description>
 			</Item>
 			<Item ID="37">
 				<Name>L2 Meter Instance</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Instance number of the Single-phase electrical meter associated to line 2]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description><![CDATA[Instance number of the Single-phase electrical meter associated to line 2]]></Description>
 			</Item>
 			<Item ID="38">
 				<Name>L3 Meter Instance</Name>
-				<Type>Integer</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Instance number of the Single-phase electrical meter associated to line 3]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description><![CDATA[Instance number of the Single-phase electrical meter associated to line 3]]></Description>
 			</Item>
 			<Item ID="39">
 				<Name>Low power factor threshold</Name>
@@ -440,21 +444,23 @@
 			</Item>
 			<Item ID="41">
 				<Name>Excessive load</Name>
-				<Type>Boolean</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[True if an excessive load is detected, e.g when too much current is being imported]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description><![CDATA[True if an excessive load is detected, e.g when too much current is being imported]]></Description>
 			</Item>			
 			<Item ID="42">
 				<Name>Unexpected load</Name>
-				<Type>Boolean</Type>
 				<Operations>R</Operations>
-				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[True if an unexpected load is detected, e.g when current is imported despite the load being supposed to be disconnected]]></Description>
+				<Mandatory>Optional</Mandatory>
+				<Type>Boolean</Type>
+				<RangeEnumeration/>
 				<Units/>
+				<Description><![CDATA[True if an unexpected load is detected, e.g when current is imported despite the load being supposed to be disconnected]]></Description>
 			</Item>			
 			<Item ID="5518">
 				<Name>Timestamp</Name>
