@@ -36,9 +36,9 @@
 		<Name>Outdoor lamp controller</Name>
 		<Description1>The uCIFI outdoor lamp controller object provides attributes to control, command and monitor outdoor luminaires in streets, in tunnels, on roads and for illumination of park and gardens.</Description1>
 		<ObjectID>3416</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:ext:3416:3.0</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:ext:3416:4.0</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
-		<ObjectVersion>3.0</ObjectVersion>
+		<ObjectVersion>4.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
@@ -248,66 +248,6 @@ The following bit mask can be used to differentiate the reason of the failure:
 				<RangeEnumeration></RangeEnumeration>
 				<Units>Cel</Units>
 				<Description><![CDATA[Temperature measured by the control gear and transmitted to the device through DALI, Zhaga D4i or equivalent.]]></Description>
-			</Item>
-			<Item ID="22">
-				<Name>Control gear thermal derating</Name>
-				<Operations>R</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type>Boolean</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Set to True if the control gear has derated the light source due to high temperature.]]></Description>
-			</Item>
-			<Item ID="23">
-				<Name>Control gear thermal derating counter</Name>
-				<Operations>R</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Number of time the control gear has derated the light source due to a high temperature, since last counter reset.]]></Description>
-			</Item>
-			<Item ID="24">
-				<Name>Control gear thermal derating counter reset</Name>
-				<Operations>E</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type></Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Reset of the control gear thermal derating counter.]]></Description>
-			</Item>
-			<Item ID="25">
-				<Name>Control gear thermal shutdown</Name>
-				<Operations>R</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type>Boolean</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Set to True if the control gear has shut the light source down due to high temperature.]]></Description>
-			</Item>
-			<Item ID="26">
-				<Name>Control gear thermal shutdown counter</Name>
-				<Operations>R</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Number of times the control gear has shutdown the light source since last counter reset.]]></Description>
-			</Item>
-			<Item ID="27">
-				<Name>Control gear thermal shutdown counter reset</Name>
-				<Operations>E</Operations>
-				<MultipleInstances>Single</MultipleInstances>
-				<Mandatory>Optional</Mandatory>
-				<Type></Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Reset of the control gear shutdown counter.]]></Description>
 			</Item>
 			<Item ID="28">
 				<Name>Output port</Name>
