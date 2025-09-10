@@ -30,7 +30,7 @@ POSSIBILITY OF SUCH DAMAGE.-->
     <Name>Cellular Connectivity Diagnostics</Name>
     <Description1>Provides standardized diagnostic information about the current cellular connection, including serving cell identifiers, PLMN details, signal quality metrics, and SIM/eSIM parameters, aligned with existing LwM2M semantics to support interoperability and troubleshooting.</Description1>
     <ObjectID>10511</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:10511</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:x:10511</ObjectURN>
     <LWM2MVersion>1.2</LWM2MVersion>
     <ObjectVersion>1.0</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>
