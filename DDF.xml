@@ -6808,8 +6808,8 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10511</ObjectID>
-        <URN>urn:oma:lwm2m:x:10511</URN>
+        <ObjectID>10511</ObjectID>
+  		<URN>urn:oma:lwm2m:ext:10511</URN>
         <Name>Cellular Connectivity Diagnostics</Name>
         <Description>Provides standardized diagnostic information about the current cellular connection, including serving cell identifiers, PLMN details, signal quality metrics, and SIM/eSIM parameters to support interoperability and troubleshooting.</Description>
         <Owner>AVSystem</Owner>
