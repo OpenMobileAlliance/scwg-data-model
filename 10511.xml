@@ -47,7 +47,7 @@ POSSIBILITY OF SUCH DAMAGE.-->
         <Type>Integer</Type>
         <RangeEnumeration>0..999</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[Mobile Country Code (MCC) of the registered PLMN. ITU-T E.212: "The MCC consists of three decimal digits identifying the country of domicile of the mobile subscriber." Range: 000–999.]]></Description>
+        <Description><![CDATA[Mobile Country Code (MCC) of the registered PLMN. ITU-T E.212: "The MCC consists of three decimal digits identifying the country of domicile of the mobile subscriber." Range: 000-999.]]></Description>
       </Item>
       <Item ID="1">
         <Name>MNC</Name>
@@ -57,7 +57,7 @@ POSSIBILITY OF SUCH DAMAGE.-->
         <Type>Integer</Type>
         <RangeEnumeration>0..999</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[Mobile Network Code (MNC) of the registered PLMN. ITU-T E.212: "The Mobile Network Code consists of two or three decimal digits and identifies the home PLMN of the subscriber within a country." Range: 00–999.]]></Description>
+        <Description><![CDATA[Mobile Network Code (MNC) of the registered PLMN. ITU-T E.212: "The Mobile Network Code consists of two or three decimal digits and identifies the home PLMN of the subscriber within a country." Range: 00-999.]]></Description>
       </Item>
       <Item ID="2">
         <Name>Serving Cell ID</Name>
@@ -67,7 +67,7 @@ POSSIBILITY OF SUCH DAMAGE.-->
         <Type>Integer</Type>
         <RangeEnumeration>0..68719476735</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[Identifier of the serving cell. 3GPP TS 36.331/38.331: "CellIdentity: Identity of the cell, within the PLMN… in E-UTRA a 28-bit value (ECI); in NR a 36-bit value (NCI)." Range: LTE 0–268435455; NR up to 68719476735.]]></Description>
+        <Description><![CDATA[Identifier of the serving cell. 3GPP TS 36.331/38.331: "CellIdentity: Identity of the cell, within the PLMN, in E-UTRA a 28-bit value (ECI); in NR a 36-bit value (NCI)." Range: LTE 0-268435455; NR up to 68719476735.]]></Description>
       </Item>
       <Item ID="3">
         <Name>Tracking Area Code</Name>
@@ -77,7 +77,7 @@ POSSIBILITY OF SUCH DAMAGE.-->
         <Type>Integer</Type>
         <RangeEnumeration>0..65535</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[Tracking Area Code (TAC). 3GPP TS 23.003: "The Tracking Area Code (TAC) is a fixed length code of 2 octets identifying a Tracking Area within a PLMN." Range: 0–65535.]]></Description>
+        <Description><![CDATA[Tracking Area Code (TAC). 3GPP TS 23.003: "The Tracking Area Code (TAC) is a fixed length code of 2 octets identifying a Tracking Area within a PLMN." Range: 0-65535.]]></Description>
       </Item>
 
       <!-- Network Information -->
@@ -217,7 +217,7 @@ More specifically:
         <Type>String</Type>
         <RangeEnumeration>14..15 digits</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[International Mobile Subscriber Identity. ITU-T E.212/3GPP TS 23.003: "The IMSI is composed of the MCC, the MNC and the MSIN, and uniquely identifies a subscription in a PLMN." Length: 14–15 digits.]]></Description>
+        <Description><![CDATA[International Mobile Subscriber Identity. ITU-T E.212/3GPP TS 23.003: "The IMSI is composed of the MCC, the MNC and the MSIN, and uniquely identifies a subscription in a PLMN." Length: 14-15 digits.]]></Description>
       </Item>
     </Resources>
     <Description2></Description2>
