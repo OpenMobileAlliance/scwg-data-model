@@ -43,27 +43,28 @@ POSSIBILITY OF SUCH DAMAGE.-->
         <Name>MCC</Name>
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
-        <Mandatory>Optional</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
         <Type>Integer</Type>
         <RangeEnumeration>0..999</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[Mobile Country Code (MCC) of the registered PLMN. ITU-T E.212: "The MCC consists of three decimal digits identifying the country of domicile of the mobile subscriber." Range: 000-999.]]></Description>
+        <Description><![CDATA[Mobile Country Code (MCC) of the registered PLMN. ITU-T E.212: "The MCC consists of three decimal digits identifying the country of domicile of the mobile subscriber." (e.g., 262 = Germany). Range: 000-999.]]></Description>
       </Item>
       <Item ID="1">
         <Name>MNC</Name>
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
-        <Mandatory>Optional</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
         <Type>Integer</Type>
         <RangeEnumeration>0..999</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[Mobile Network Code (MNC) of the registered PLMN. ITU-T E.212: "The Mobile Network Code consists of two or three decimal digits and identifies the home PLMN of the subscriber within a country." Range: 00-999.]]></Description>
+        <Description><![CDATA[Mobile Network Code (MNC) of the registered PLMN. ITU-T E.212: "The Mobile Network Code consists of two or three decimal digits and identifies the home PLMN of the subscriber within a country."(e.g., 01 = Telekom DE). Must be used together with MCC.
+ Range: 00-999.]]></Description>
       </Item>
       <Item ID="2">
         <Name>Serving Cell ID</Name>
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
-        <Mandatory>Optional</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
         <Type>Integer</Type>
         <RangeEnumeration>0..68719476735</RangeEnumeration>
         <Units/>
@@ -119,7 +120,7 @@ More specifically:
         <Name>Operator Name</Name>
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
-        <Mandatory>Optional</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
         <Type>String</Type>
         <RangeEnumeration/>
         <Units/>
@@ -129,7 +130,7 @@ More specifically:
         <Name>Roaming Status</Name>
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
-        <Mandatory>Optional</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
         <Type>Boolean</Type>
         <RangeEnumeration>0..1</RangeEnumeration>
         <Units/>
