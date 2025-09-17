@@ -78,7 +78,11 @@ POSSIBILITY OF SUCH DAMAGE.-->
         <Type>Integer</Type>
         <RangeEnumeration>0..65535</RangeEnumeration>
         <Units/>
-        <Description><![CDATA[Tracking Area Code (TAC). 3GPP TS 23.003: "The Tracking Area Code (TAC) is a fixed length code of 2 octets identifying a Tracking Area within a PLMN." Range: 0-65535.]]></Description>
+        <Description><![CDATA[Area Code identifying the UE’s registration area within a PLMN. 
+Interpretation depends on the Network Bearer (Resource ID: 4):
+- GSM/UMTS (2G/3G): Location Area Code (LAC), 16-bit identifier of the Location Area.
+- LTE/NR (4G/5G): Tracking Area Code (TAC), 16-bit identifier of the Tracking Area.
+Both LAC and TAC are defined in 3GPP TS 23.003 and share the same numeric range (0-65535).]]></Description>
       </Item>
 
       <!-- Network Information -->
