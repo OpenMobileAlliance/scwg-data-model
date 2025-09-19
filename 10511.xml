@@ -157,7 +157,7 @@ More specifically:
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
-        <Type>Integer</Type>
+        <Type>Float</Type>
         <RangeEnumeration></RangeEnumeration>
         <Units>dBm</Units>
         <Description><![CDATA[Reference Signal Received Power. 3GPP TS 36.214/38.215: "RSRP is defined as the linear average over the power contributions of resource elements carrying reference signals."]]></Description>
@@ -167,7 +167,7 @@ More specifically:
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
-        <Type>Integer</Type>
+        <Type>Float</Type>
         <RangeEnumeration></RangeEnumeration>
         <Units>dB</Units>
         <Description><![CDATA[Reference Signal Received Quality. 3GPP TS 36.214/38.215: "RSRQ = (N × RSRP) / RSSI, where N is number of RBs."]]></Description>
@@ -177,7 +177,7 @@ More specifically:
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
-        <Type>Integer</Type>
+        <Type>Float</Type>
         <RangeEnumeration></RangeEnumeration>
         <Units>dBm</Units>
         <Description><![CDATA[Received Signal Strength Indicator. 3GPP TS 36.214: "RSSI comprises the linear average of the total received wideband power observed at the antenna connector." GSM: TS 45.008; UMTS: TS 25.133.]]></Description>
@@ -187,7 +187,7 @@ More specifically:
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
-        <Type>Integer</Type>
+        <Type>Float</Type>
         <RangeEnumeration></RangeEnumeration>
         <Units>dB</Units>
         <Description><![CDATA[Signal-to-Interference-and-Noise Ratio. 3GPP TS 36.214/38.215: "SINR represents the ratio of signal power to the sum of interference and noise power, expressed in dB."]]></Description>
