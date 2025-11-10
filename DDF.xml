@@ -6822,6 +6822,171 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
         <TSLink>0</TSLink>
     </Item>
     <Item>
+       <ObjectID>10512</ObjectID>
+        <URN>urn:oma:lwm2m:x:10512</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10512
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10513</ObjectID>
+        <URN>urn:oma:lwm2m:x:10513</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10513
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10514</ObjectID>
+        <URN>urn:oma:lwm2m:x:10514</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10514
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10515</ObjectID>
+        <URN>urn:oma:lwm2m:x:10515</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10515
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10516</ObjectID>
+        <URN>urn:oma:lwm2m:x:10516</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10516
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10517</ObjectID>
+        <URN>urn:oma:lwm2m:x:10517</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10517
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10518</ObjectID>
+        <URN>urn:oma:lwm2m:x:10518</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10518
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10519</ObjectID>
+        <URN>urn:oma:lwm2m:x:10519</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10519
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10520</ObjectID>
+        <URN>urn:oma:lwm2m:x:10520</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10520
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10521</ObjectID>
+        <URN>urn:oma:lwm2m:x:10521</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10521
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10522</ObjectID>
+        <URN>urn:oma:lwm2m:x:10522</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10522
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
         <ObjectID>18830</ObjectID>
         <URN>urn:oma:lwm2m:x:18830</URN>
         <Name>MQTT Broker</Name>
