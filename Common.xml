@@ -276,6 +276,17 @@ If the LwM2M client is connected to multiple servers, this resource SHOULD be ha
         <TS></TS>       
         <TSLink>0</TSLink>
        </Item>
+       <Item ID="4050">
+        <Name>AppID</Name>
+        <Operations>RW</Operations>
+        <Type>Unsigned Integer</Type>
+        <RangeEnumeration>2 bytes</RangeEnumeration>       
+        <Units></Units>        
+        <Submitter>OMA</Submitter>
+        <Description><![CDATA[Application ID index from a TBD LwM2M Application Registry.]]></Description>        
+        <TS></TS>       
+        <TSLink>0</TSLink>
+       </Item>
 
        <Item ID="5500">
 
