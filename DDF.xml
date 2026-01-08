@@ -6825,8 +6825,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10512</ObjectID>
         <URN>urn:oma:lwm2m:x:10512</URN>
         <Name>Starlink Terminal</Name>
-        <Description>Reservation 10512
-        </Description>
+        <Description>Management and monitoring of Starlink Gen3 satellite internet terminals. Remote access to telemetry, configuration, and control of Starlink dishes via gRPC protocol.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6840,7 +6839,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10513</ObjectID>
         <URN>urn:oma:lwm2m:x:10513</URN>
         <Name>Router Management</Name>
-        <Description>Reservation 10513
+        <Description>General router configuration and management for OpenWRT-based routers. Includes hostname, IP settings, DNS, NTP, timezone, and firmware management.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6855,7 +6854,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10514</ObjectID>
         <URN>urn:oma:lwm2m:x:10514</URN>
         <Name>Ethernet Interface</Name>
-        <Description>Reservation 10514
+        <Description>Ethernet port monitoring and configuration. Each instance represents one physical Ethernet port with status, statistics, and configuration.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6870,7 +6869,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10515</ObjectID>
         <URN>urn:oma:lwm2m:x:10515</URN>
         <Name>GPIO Control</Name>
-        <Description>Reservation 10515
+        <Description>GPIO pin management for LED control, button inputs, and general-purpose I/O via Linux sysfs interface.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6884,7 +6883,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
     <Item>
        <ObjectID>10516</ObjectID>
         <URN>urn:oma:lwm2m:x:10516</URN>
-        <Name>USB Management</Name>
+        <Name>USB device enumeration and power management. Monitors connected USB devices and provides power control capabilities.</Name>
         <Description>Reservation 10516
         </Description>
         <Owner>Walt Technologies</Owner>
@@ -6900,7 +6899,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10517</ObjectID>
         <URN>urn:oma:lwm2m:x:10517</URN>
         <Name>Storage Management</Name>
-        <Description>Reservation 10517
+        <Description>Storage device management including mount points, capacity monitoring, and filesystem operations.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6915,7 +6914,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10518</ObjectID>
         <URN>urn:oma:lwm2m:x:10518</URN>
         <Name>System Monitor</Name>
-        <Description>Reservation 10518
+        <Description>System resource monitoring including CPU usage, memory utilization, load average, uptime, and process count.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6930,7 +6929,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10519</ObjectID>
         <URN>urn:oma:lwm2m:x:10519</URN>
         <Name>Hardware Watchdog</Name>
-        <Description>Reservation 10519
+        <Description>Hardware watchdog timer management for automatic system recovery. Supports /dev/watchdog interface.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6945,7 +6944,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10520</ObjectID>
         <URN>urn:oma:lwm2m:x:10520</URN>
         <Name>MIKROBUS</Name>
-        <Description>Reservation 10520
+        <Description>MikroE Click board expansion slot management. Supports Click board detection and I2C/SPI/UART interface configuration.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6960,7 +6959,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10521</ObjectID>
         <URN>urn:oma:lwm2m:x:10521</URN>
         <Name>Firewall Configuration</Name>
-        <Description>Reservation 10521
+        <Description>Firewall rule management for OpenWRT iptables/nftables. Port filtering, IP filtering, zone-based firewall via UCI.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6975,7 +6974,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10522</ObjectID>
         <URN>urn:oma:lwm2m:x:10522</URN>
         <Name>POE Management</Name>
-        <Description>Reservation 10522
+        <Description>Power over Ethernet port management for PoE-capable switches. Power budget, per-port control, and priority settings.
         </Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
