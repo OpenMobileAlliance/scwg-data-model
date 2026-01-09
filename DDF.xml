@@ -6825,7 +6825,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10512</ObjectID>
         <URN>urn:oma:lwm2m:x:10512</URN>
         <Name>Starlink Terminal</Name>
-        <Description>Management and monitoring of Starlink Gen3 satellite internet terminals. Remote access to telemetry, configuration, and control of Starlink dishes via gRPC protocol.</Description>
+        <Description>This LwM2M Object provides comprehensive management and monitoring of Starlink Gen3 satellite internet terminals. It enables remote access to telemetry, configuration, and control of Starlink dishes, including obstruction monitoring, alignment tracking, speed testing, and performance metrics. The object interfaces with the Starlink terminal via gRPC protocol (default endpoint: 192.168.100.1:9200).</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6839,8 +6839,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10513</ObjectID>
         <URN>urn:oma:lwm2m:x:10513</URN>
         <Name>Router Management</Name>
-        <Description>General router configuration and management for OpenWRT-based routers. Includes hostname, IP settings, DNS, NTP, timezone, and firmware management.
-        </Description>
+        <Description>This LwM2M Object provides core router configuration and management capabilities for OpenWRT-based routers. It enables remote management of network parameters including LAN/WAN configuration, DHCP server settings, DNS configuration, and firewall controls. The object supports common router functions essential for IoT gateway deployments.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6854,8 +6853,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10514</ObjectID>
         <URN>urn:oma:lwm2m:x:10514</URN>
         <Name>Ethernet Interface</Name>
-        <Description>Ethernet port monitoring and configuration. Each instance represents one physical Ethernet port with status, statistics, and configuration.
-        </Description>
+        <Description>This LwM2M Object provides management and monitoring of Ethernet network interfaces on OpenWRT-based routers. It supports multiple instances for managing different physical Ethernet ports (WAN, LAN, etc.), providing real-time statistics on link status, speed, duplex mode, and traffic counters. Essential for monitoring router connectivity and network performance.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6869,8 +6867,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10515</ObjectID>
         <URN>urn:oma:lwm2m:x:10515</URN>
         <Name>GPIO Control</Name>
-        <Description>GPIO pin management for LED control, button inputs, and general-purpose I/O via Linux sysfs interface.
-        </Description>
+        <Description>This LwM2M Object provides control and monitoring of GPIO (General Purpose Input/Output) pins on embedded devices. It supports management of LEDs, buttons, and general-purpose GPIO pins commonly found on OpenWRT routers. Multiple instances allow control of different GPIO resources, enabling remote status indication, user input monitoring, and custom hardware interfacing.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6884,8 +6881,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10516</ObjectID>
         <URN>urn:oma:lwm2m:x:10516</URN>
         <Name>USB device enumeration and power management. Monitors connected USB devices and provides power control capabilities.</Name>
-        <Description>Reservation 10516
-        </Description>
+        <Description>This LwM2M Object provides monitoring and control of USB ports on embedded devices and routers. It supports multiple instances for managing different USB ports, providing information about connected devices, power management, and port status. Useful for OpenWRT routers with USB ports for storage, modems, or other peripherals.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6899,8 +6895,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10517</ObjectID>
         <URN>urn:oma:lwm2m:x:10517</URN>
         <Name>Storage Management</Name>
-        <Description>Storage device management including mount points, capacity monitoring, and filesystem operations.
-        </Description>
+        <Description>This LwM2M Object provides management and monitoring of storage devices on embedded systems and routers. It supports multiple instances for managing different storage devices including internal NAND/NVMe, SD cards, and USB storage. Enables remote monitoring of storage capacity, usage, and basic management operations like mount/unmount and formatting.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6914,8 +6909,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10518</ObjectID>
         <URN>urn:oma:lwm2m:x:10518</URN>
         <Name>System Monitor</Name>
-        <Description>System resource monitoring including CPU usage, memory utilization, load average, uptime, and process count.
-        </Description>
+        <Description>This LwM2M Object provides comprehensive system monitoring for embedded Linux devices and routers. It reports CPU usage, memory statistics, thermal status, and system load metrics. Essential for remote monitoring of device health, performance, and resource utilization on OpenWRT-based routers and IoT gateways.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6929,8 +6923,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10519</ObjectID>
         <URN>urn:oma:lwm2m:x:10519</URN>
         <Name>Hardware Watchdog</Name>
-        <Description>Hardware watchdog timer management for automatic system recovery. Supports /dev/watchdog interface.
-        </Description>
+        <Description>This LwM2M Object provides monitoring and management of hardware watchdog timers commonly found in embedded systems and IoT devices. The watchdog is a hardware timer that must be periodically reset ("petted") to prevent system reboot. This object enables remote configuration and monitoring of watchdog behavior, particularly useful for OpenWRT-based routers and similar embedded Linux devices.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6944,8 +6937,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10520</ObjectID>
         <URN>urn:oma:lwm2m:x:10520</URN>
         <Name>MIKROBUS</Name>
-        <Description>MikroE Click board expansion slot management. Supports Click board detection and I2C/SPI/UART interface configuration.
-        </Description>
+        <Description>This LwM2M Object provides comprehensive management and monitoring of MIKROBUS sockets and Click boards. MIKROBUS is a standard for add-on boards that defines a specific pinout with SPI, I2C, UART, PWM, GPIO, and analog interfaces. This object enables remote configuration of interfaces, GPIO control, Click board detection, and power management. Supports multiple instances for managing multiple MIKROBUS sockets on a device.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6959,8 +6951,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10521</ObjectID>
         <URN>urn:oma:lwm2m:x:10521</URN>
         <Name>Firewall Configuration</Name>
-        <Description>Firewall rule management for OpenWRT iptables/nftables. Port filtering, IP filtering, zone-based firewall via UCI.
-        </Description>
+        <Description>This LwM2M Object provides management of firewall rules for OpenWRT-based routers. It enables remote configuration of iptables/nftables firewall rules including port filtering, IP address filtering, protocol filtering, and zone-based firewall management. Each instance represents a single firewall rule that can be created, modified, enabled/disabled, or deleted remotely. The object integrates with OpenWRT's UCI configuration system and supports both IPv4 and IPv6 rules.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
@@ -6974,8 +6965,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10522</ObjectID>
         <URN>urn:oma:lwm2m:x:10522</URN>
         <Name>POE Management</Name>
-        <Description>Power over Ethernet port management for PoE-capable switches. Power budget, per-port control, and priority settings.
-        </Description>
+        <Description>This LwM2M Object provides monitoring and control of Power over Ethernet (PoE) functionality on devices that support IEEE 802.3af/at/bt standards. It enables remote monitoring of PoE power input including voltage, current, and power consumption. For Powered Devices (PD), it provides visibility into the power being received. The object supports detection of PoE standard in use (af, at, bt), power class negotiation, and power cycling for recovery scenarios.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
