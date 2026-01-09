@@ -6880,7 +6880,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
     <Item>
        <ObjectID>10516</ObjectID>
         <URN>urn:oma:lwm2m:x:10516</URN>
-        <Name>USB device enumeration and power management. Monitors connected USB devices and provides power control capabilities.</Name>
+        <Name>USB Management</Name>
         <Description>This LwM2M Object provides monitoring and control of USB ports on embedded devices and routers. It supports multiple instances for managing different USB ports, providing information about connected devices, power management, and port status. Useful for OpenWRT routers with USB ports for storage, modems, or other peripherals.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6950,7 +6950,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
     <Item>
        <ObjectID>10521</ObjectID>
         <URN>urn:oma:lwm2m:x:10521</URN>
-        <Name>Firewall Configuration</Name>
+        <Name>Firewall Config</Name>
         <Description>This LwM2M Object provides management of firewall rules for OpenWRT-based routers. It enables remote configuration of iptables/nftables firewall rules including port filtering, IP address filtering, protocol filtering, and zone-based firewall management. Each instance represents a single firewall rule that can be created, modified, enabled/disabled, or deleted remotely. The object integrates with OpenWRT's UCI configuration system and supports both IPv4 and IPv6 rules.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>
@@ -6964,7 +6964,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
     <Item>
        <ObjectID>10522</ObjectID>
         <URN>urn:oma:lwm2m:x:10522</URN>
-        <Name>POE Management</Name>
+        <Name>PoE Management</Name>
         <Description>This LwM2M Object provides monitoring and control of Power over Ethernet (PoE) functionality on devices that support IEEE 802.3af/at/bt standards. It enables remote monitoring of PoE power input including voltage, current, and power consumption. For Powered Devices (PD), it provides visibility into the power being received. The object supports detection of PoE standard in use (af, at, bt), power class negotiation, and power cycling for recovery scenarios.</Description>
         <Owner>Walt Technologies</Owner>
         <Source>2</Source>

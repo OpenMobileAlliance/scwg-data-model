@@ -44,7 +44,7 @@ All rights reserved.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>Mbps</Units>
+                <Units>Mbit/s</Units>
                 <Description><![CDATA[Current link speed in megabits per second (e.g., 10, 100, 1000, 2500, 10000). Returns 0 if link is down.]]></Description>
             </Item>
             <Item ID="3">
