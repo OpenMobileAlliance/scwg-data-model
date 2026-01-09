@@ -189,7 +189,7 @@ All rights reserved.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>bps</Units>
+                <Units>B/s</Units>
                 <Description><![CDATA[UART baud rate in bits per second (e.g., 9600, 115200).]]></Description>
             </Item>
             <Item ID="25">
