@@ -7045,197 +7045,186 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10525</ObjectID>
+        <ObjectID>10525</ObjectID>
         <URN>urn:oma:lwm2m:x:10525</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10525
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>WAN Failover Policy</Name>
+        <Description>Multi-WAN failover configuration. Priority-based WAN selection, failover triggers, and load balancing policies.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10525.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10526</ObjectID>
+        <ObjectID>10526</ObjectID>
         <URN>urn:oma:lwm2m:x:10526</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10526
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Multi-WAN Health Check</Name>
+        <Description>WAN connection health monitoring with ping/HTTP checks, latency tracking, and automatic failover triggers.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10526.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10527</ObjectID>
+        <ObjectID>10527</ObjectID>
         <URN>urn:oma:lwm2m:x:10527</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10527
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>WiFi Client Management</Name>
+        <Description>Connected WiFi client tracking and management. Client statistics, signal strength, bandwidth usage, and access control.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10527.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10528</ObjectID>
+        <ObjectID>10528</ObjectID>
         <URN>urn:oma:lwm2m:x:10528</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10528
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>WiFi Channel Optimization</Name>
+        <Description>WiFi channel selection and optimization. Interference monitoring, automatic channel selection, and DFS management.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10528.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10529</ObjectID>
+        <ObjectID>10529</ObjectID>
         <URN>urn:oma:lwm2m:x:10529</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10529
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Matter Bridge</Name>
+        <Description>Matter protocol bridge functionality. Enables LwM2M-managed gateways to expose devices to Matter fabric ecosystems.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10529.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
+
     <Item>
-       <ObjectID>10530</ObjectID>
+        <ObjectID>10530</ObjectID>
         <URN>urn:oma:lwm2m:x:10530</URN>
-        <Name>TBD</Name>
-        <Description>Reservation n10530
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Matter Device</Name>
+        <Description>Individual Matter device representation. Device information, commissioning status, and endpoint management.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10530.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10531</ObjectID>
+        <ObjectID>10531</ObjectID>
         <URN>urn:oma:lwm2m:x:10531</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10531
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Thread Network</Name>
+        <Description>Thread mesh network management. Border router configuration, network formation, and mesh topology monitoring.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10531.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10532</ObjectID>
+        <ObjectID>10532</ObjectID>
         <URN>urn:oma:lwm2m:x:10532</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10532
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Zigbee Coordinator</Name>
+        <Description>Zigbee network coordinator management. Network formation, device joining, EZSP/Z-Stack support, and mesh orchestration.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10532.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
+
     <Item>
-       <ObjectID>10533</ObjectID>
+        <ObjectID>10533</ObjectID>
         <URN>urn:oma:lwm2m:x:10533</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10533
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Zigbee Device</Name>
+        <Description>Individual Zigbee device representation. Device info, status monitoring, ZCL attribute access, and device management.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10533.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10534</ObjectID>
+        <ObjectID>10534</ObjectID>
         <URN>urn:oma:lwm2m:x:10534</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10534
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Zigbee Group</Name>
+        <Description>Zigbee group management for collective device control. Group membership, scene management, and ZCL group commands.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10534.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10535</ObjectID>
+        <ObjectID>10535</ObjectID>
         <URN>urn:oma:lwm2m:x:10535</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10535
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>LAN Configuration</Name>
+        <Description>LAN network configuration. DHCP server settings, IP ranges, DNS relay, and client lease management.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10535.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10536</ObjectID>
+        <ObjectID>10536</ObjectID>
         <URN>urn:oma:lwm2m:x:10536</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10536
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Routing Table</Name>
+        <Description>IP routing table management. Static routes, default gateway, policy-based routing, and route metrics.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10536.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>10537</ObjectID>
+        <ObjectID>10537</ObjectID>
         <URN>urn:oma:lwm2m:x:10537</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10537
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>VPN Configuration</Name>
+        <Description>VPN tunnel configuration. OpenVPN, WireGuard, IPsec support with connection management and status monitoring.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10537.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
