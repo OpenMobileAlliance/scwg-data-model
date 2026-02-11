@@ -85,7 +85,7 @@
 			<Item ID="4">
 				<Name>Group  Address</Name>
 				<Operations>RW</Operations>
-				<MultipleInstances>Single</MultipleInstances>
+				<MultipleInstances>Multiple</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
