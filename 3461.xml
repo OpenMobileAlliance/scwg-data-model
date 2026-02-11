@@ -109,6 +109,39 @@ If the device supports no fusion capabilities, this resource should be set to 0.
 				<Units/>
 				<Description><![CDATA[When executed, trigger a complete wipe of the distributed sensor groups already commissioned]]></Description>
 			</Item>
+			<Item ID="6">
+				<Name>Supported implementations</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
+				<Description><![CDATA[Specifies the underlying implementations supported by the device to transfer the distributed messages using a Bit Mask:
+Bit 0: implementation supported: IPv6 - Multicast only - NoSec
+Bit 1: implementation supported: IPv6 - Unicast only - NoSec
+Bit 2: implementation supported: IPv6 - Multicast + Unicast - NoSec
+Bit 3: implementation supported: IPv4 - Multicast only - NoSec
+Bit 4: implementation supported: IPv4 - Unicast only - NoSec
+Bit 5: implementation supported: IPv4 - Multicast + Unicast - NoSec
+]]></Description>
+			</Item>
+			<Item ID="7">
+				<Name>Implementation</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
+				<Description><![CDATA[Set which implementation to use among the supported ones.
+The value should correspond to the bit in resource Supported implementations
+e.g.
+0 = IPv6 - Multicast only - NoSec
+5 = IPv4 - Multicast + Unicast - NoSec
+Setting a value that is not supported shall be rejected
+]]></Description>
+			</Item>
 		</Resources>
 		<Description2/>
 	</Object>
