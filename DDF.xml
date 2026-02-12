@@ -7243,7 +7243,7 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
        <ObjectID>10538</ObjectID>
         <URN>urn:oma:lwm2m:x:10538</URN>
         <Name>Acceleration Tamper Alarm</Name>
-        <Description>This alarm is raised when acceleration is detected by e.g. an accelerometer</Description>
+        <Description><![CDATA[This alarm is raised when acceleration is detected by e.g. an accelerometer]]></Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
