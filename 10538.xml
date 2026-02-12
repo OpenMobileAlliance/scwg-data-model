@@ -34,7 +34,7 @@ POSSIBILITY OF SUCH DAMAGE.
 <LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
     <Object ObjectType="MODefinition">
         <Name>Acceleration Tamper Alarm</Name>
-        <Description1><![CDATA[This alarm is raised when accleration is detected by e.g. an accelerometer.]]></Description1>
+        <Description1><![CDATA[This alarm is raised when accleration is detected by e.g. an accelerometer]]></Description1>
         <ObjectID>10538</ObjectID>
         <ObjectURN>urn:oma:lwm2m:x:10538</ObjectURN>
         <LWM2MVersion>1.0</LWM2MVersion>
