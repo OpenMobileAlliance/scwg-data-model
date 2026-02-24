@@ -4686,7 +4686,7 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
     <Item>
         <ObjectID>3602</ObjectID>
         <URN>urn:oma:lwm2m:ext:3602</URN>
-        <Name></Name>
+        <Name>TBD</Name>
         <Description>Reservation for 3602</Description>
         <Owner>TBD</Owner>
         <Source>1</Source>
@@ -4700,7 +4700,7 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
     <Item>
         <ObjectID>3603</ObjectID>
         <URN>urn:oma:lwm2m:ext:3603</URN>
-        <Name></Name>
+        <Name>TBD</Name>
         <Description>Reservation for 3603</Description>
         <Owner>TBD</Owner>
         <Source>1</Source>
