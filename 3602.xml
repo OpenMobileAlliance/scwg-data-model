@@ -7,7 +7,7 @@ OMA Permanent Document
    Path: 
 
 OMNA LwM2M Registry
-   File: 3465.xml
+   File: 3602.xml
    Path: https://github.com/OpenMobileAlliance/lwm2m-registry
    
 
@@ -27,7 +27,7 @@ See https://github.com/OpenMobileAlliance/app_messaging
 
 LEGAL DISCLAIMER
 
-Copyright 2019-2025 Open Mobile Alliance.
+Copyright 2019-2026 Open Mobile Alliance.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -65,7 +65,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 		<Name>AppAccounting</Name>
 		<Description1><![CDATA[This LwM2M Object provides facilities for service flow level accounting and throttling per application.]]></Description1>
 		<ObjectID>3602</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:oma:3602</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:ext:3602</ObjectURN>
 		<LWM2MVersion>1.1</LWM2MVersion>
 		<ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
