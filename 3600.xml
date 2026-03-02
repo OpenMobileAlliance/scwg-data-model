@@ -66,7 +66,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 		<Description1><![CDATA[This LwM2M Object provides a bi-directional messaging facility for applications. Distinct resources are defined for Client to Server messaging and Server to Client messaging.
 ]]></Description1>
 		<ObjectID>3600</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:oma:3600</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:ext:3600</ObjectURN>
 		<LWM2MVersion>1.1</LWM2MVersion>
 		<ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Multiple</MultipleInstances>
@@ -80,14 +80,14 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Server to Client message.]]></Description>
-			</Item>
+		   </Item>
 			<Item ID="1"><Name>Client Message</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
 				<RangeEnumeration />
-				<Units />
+				<Units/>
 				<Description><![CDATA[Client to Server message.]]></Description>
 			</Item>
 			<Item ID="2"><Name>Message Priority</Name>
@@ -96,7 +96,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Mandatory>Optional</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>1 bytes</RangeEnumeration>
-				<Units />
+				<Units/>
 				<Description><![CDATA[Indicates the message priority:
 0:Immediate
 1:BestEffort
@@ -110,7 +110,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>1 bytes</RangeEnumeration>
-				<Units />
+				<Units/>
 				<Description><![CDATA[Indicates the message description:
 0:App Configuration
 1:App Data
