@@ -81,22 +81,24 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Units />
 				<Description><![CDATA[Server to Client message.]]></Description>
 		   </Item>
-			<Item ID="1"><Name>Client Message</Name>
+			<Item ID="1">
+				<Name>Client Message</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Opaque</Type>
 				<RangeEnumeration />
-				<Units/>
+				<Units />
 				<Description><![CDATA[Client to Server message.]]></Description>
 			</Item>
-			<Item ID="2"><Name>Message Priority</Name>
+			<Item ID="2">
+				<Name>Message Priority</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>1 bytes</RangeEnumeration>
-				<Units/>
+				<Units />
 				<Description><![CDATA[Indicates the message priority:
 0:Immediate
 1:BestEffort
@@ -104,20 +106,22 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 3-100: Reserved for future use.
 101-254: Proprietary mode.]]></Description>
 			</Item>
-			<Item ID="3"><Name>Message Description</Name>
+			<Item ID="3">
+				<Name>Message Description</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>1 bytes</RangeEnumeration>
-				<Units/>
+				<Units />
 				<Description><![CDATA[Indicates the message description:
 0:App Configuration
 1:App Data
 2-100: Reserved for future use.
 101-254: Proprietary use.]]></Description>
 			</Item>
-			<Item ID="4050"><Name>AppID</Name>
+			<Item ID="4050">
+				<Name>AppID</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
@@ -125,7 +129,8 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<RangeEnumeration>2 bytes</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[Indicates a reference to a registered Application ID using this object instance.]]></Description>
-			</Item></Resources>
+			</Item>
+		</Resources>
 		<Description2><![CDATA[]]></Description2>
 	</Object>
 </LWM2M>
