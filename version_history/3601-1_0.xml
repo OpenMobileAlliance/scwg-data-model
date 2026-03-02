@@ -66,7 +66,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 		<Description1><![CDATA[This LwM2M Object provides a facility for monitoring resource utilization of a GEISA edge environment.]]>
     </Description1>
 		<ObjectID>3601</ObjectID>
-		<ObjectURN>urn:oma:lwm2m:oma:3601</ObjectURN>
+		<ObjectURN>urn:oma:lwm2m:ext:3601</ObjectURN>
 		<LWM2MVersion>1.1</LWM2MVersion>
 		<ObjectVersion>1.0</ObjectVersion>
 		<MultipleInstances>Single</MultipleInstances>
@@ -79,7 +79,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>4 bytes</RangeEnumeration>
-				<Units>seconds</Units>
+				<Units>s</Units>
 				<Description><![CDATA[Duration since last boot in integer seconds.]]></Description>
 			</Item>
 			<Item ID="1">
@@ -109,7 +109,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Mandatory>Optional</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
-				<Units>percent</Units>
+				<Units>%</Units>
 				<Description><![CDATA[Scaled integer value representing deci-percentage (Usage = Value / 10) of current CPU utilization (user+system time).]]></Description>
 			</Item>
 			<Item ID="4">
@@ -179,7 +179,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Mandatory>Optional</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
-				<Units>percent</Units>
+				<Units>%</Units>
 				<Description><![CDATA[Scaled integer file handle utilization in centi-percent of limit: used_int = (open / max) * 10000. used_pct = used_int / 100.
           Useful to detect file descriptor leaks, socket leaks, network connection storms, or misbehaving applications.]]></Description>
 			</Item>
