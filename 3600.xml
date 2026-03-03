@@ -128,7 +128,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>2 bytes</RangeEnumeration>
 				<Units />
-				<Description><![CDATA[Indicates a reference to a registered Application ID using this object instance.]]></Description>
+				<Description><![CDATA[Application ID index from a TBD LwM2M Application Registry.]]></Description>
 			</Item>
 		</Resources>
 		<Description2><![CDATA[]]></Description2>
