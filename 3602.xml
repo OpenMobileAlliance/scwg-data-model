@@ -160,8 +160,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>2 bytes</RangeEnumeration>
 				<Units />
-				<Description><![CDATA[A registered Application ID reference for tracking service flow level accounting in this object instance.
-          A value of 0 references system-wide accounting.]]></Description>
+				<Description><![CDATA[Application ID index from a TBD LwM2M Application Registry.]]></Description>
 			</Item>
     </Resources>
 		<Description2><![CDATA[]]></Description2>
