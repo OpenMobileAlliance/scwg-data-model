@@ -71,7 +71,8 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 		<MultipleInstances>Multiple</MultipleInstances>
 		<Mandatory>Optional</Mandatory>
 		<Resources>
-			<Item ID="0"><Name>Collection Period</Name>
+			<Item ID="0">
+				<Name>Collection Period</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
@@ -81,61 +82,68 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Description><![CDATA[A string in RFC 5545 Recurrence Rule (RRule) format defining the collection period (e.g., "RRULE:FREQ=MINUTELY;INTERVAL=60"). 
           Collection period counters shall be automatically reset at the end of each collection period.]]></Description>
 			</Item>
-			<Item ID="1"><Name>Maximum Bytes</Name>
+			<Item ID="1">
+				<Name>Maximum Bytes</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Hard limit maximum number of bytes allowed per collection period, above which the device initiates throttling of the app referenced in resource 4050 without direction from the Server.]]></Description>
 			</Item>
-			<Item ID="2"><Name>TX Bytes</Name>
+			<Item ID="2">
+				<Name>TX Bytes</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
         		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of bytes transmitted so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      		<Item ID="3"><Name>RX Bytes</Name>
+      		<Item ID="3">
+				<Name>RX Bytes</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
         		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of bytes received so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      		<Item ID="4"><Name>Total Bytes</Name>
+      		<Item ID="4">
+				<Name>Total Bytes</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
         		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of bytes transmitted and received so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      		<Item ID="5"><Name>TX Packets</Name>
+      		<Item ID="5">
+				<Name>TX Packets</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
         		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of packets transmitted so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      		<Item ID="6"><Name>RX Packets</Name>
+      		<Item ID="6">
+				<Name>RX Packets</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
         		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of packets received so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      		<Item ID="7"><Name>Start Throttling</Name>
+      		<Item ID="7">
+				<Name>Start Throttling</Name>
 				<Operations>E</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -144,7 +152,8 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Units />
 				<Description><![CDATA[Start throttling traffic for the app referenced in resource 4050.]]></Description>
 			</Item>
-      		<Item ID="8"><Name>Stop Throttling</Name>
+      		<Item ID="8">
+				<Name>Stop Throttling</Name>
 				<Operations>E</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
@@ -153,11 +162,12 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Units />
 				<Description><![CDATA[Stop throttling traffic for the app referenced in resource 4050.]]></Description>
 			</Item>
-			<Item ID="4050"><Name>AppID</Name>
+			<Item ID="4050">
+				<Name>AppID</Name>
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>2 bytes</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[A unique local-scope identifier for distinguishing edge applications within a specific deployment environment.]]></Description>
