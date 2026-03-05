@@ -85,7 +85,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Unsigned Integer</Type>
+				<Type>Integer</Type>
 				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Hard limit maximum number of bytes allowed per collection period, above which the device initiates throttling of the app referenced in resource 4050 without direction from the Server.]]></Description>
@@ -94,62 +94,62 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Unsigned Integer</Type>
-        <RangeEnumeration />
+				<Type>Integer</Type>
+        		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of bytes transmitted so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      <Item ID="3"><Name>RX Bytes</Name>
+      		<Item ID="3"><Name>RX Bytes</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Unsigned Integer</Type>
-        <RangeEnumeration />
+				<Type>Integer</Type>
+        		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of bytes received so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      <Item ID="4"><Name>Total Bytes</Name>
+      		<Item ID="4"><Name>Total Bytes</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Unsigned Integer</Type>
-        <RangeEnumeration />
+				<Type>Integer</Type>
+        		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of bytes transmitted and received so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      <Item ID="5"><Name>TX Packets</Name>
+      		<Item ID="5"><Name>TX Packets</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Unsigned Integer</Type>
-        <RangeEnumeration />
+				<Type>Integer</Type>
+        		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of packets transmitted so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      <Item ID="6"><Name>RX Packets</Name>
+      		<Item ID="6"><Name>RX Packets</Name>
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Unsigned Integer</Type>
-        <RangeEnumeration />
+				<Type>Integer</Type>
+        		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of packets received so far during the collection period for the app referenced in resource 4050.]]></Description>
 			</Item>
-      <Item ID="7"><Name>Start Throttling</Name>
+      		<Item ID="7"><Name>Start Throttling</Name>
 				<Operations>E</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type />
-        <RangeEnumeration />
+        		<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Start throttling traffic for the app referenced in resource 4050.]]></Description>
 			</Item>
-      <Item ID="8"><Name>Stop Throttling</Name>
+      		<Item ID="8"><Name>Stop Throttling</Name>
 				<Operations>E</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type />
-        <RangeEnumeration />
+				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Stop throttling traffic for the app referenced in resource 4050.]]></Description>
 			</Item>
@@ -157,13 +157,12 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Unsigned Integer</Type>
+				<Type>Integer</Type>
 				<RangeEnumeration>2 bytes</RangeEnumeration>
 				<Units />
-				<Description><![CDATA[A registered Application ID reference for tracking service flow level accounting in this object instance.
-          A value of 0 references system-wide accounting.]]></Description>
+				<Description><![CDATA[A unique local-scope identifier for distinguishing edge applications within a specific deployment environment.]]></Description>
 			</Item>
-    </Resources>
+    	</Resources>
 		<Description2><![CDATA[]]></Description2>
 	</Object>
 </LWM2M>
