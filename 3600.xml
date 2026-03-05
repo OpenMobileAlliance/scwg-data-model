@@ -96,8 +96,8 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Unsigned Integer</Type>
-				<RangeEnumeration>1 bytes</RangeEnumeration>
+				<Type>Integer</Type>
+				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[Indicates the message priority:
 0:Immediate
@@ -111,7 +111,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Unsigned Integer</Type>
+				<Type>Integer</Type>
 				<RangeEnumeration>1 bytes</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[Indicates the message description:
@@ -125,7 +125,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>RW</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Unsigned Integer</Type>
+				<Type>Integer</Type>
 				<RangeEnumeration>2 bytes</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[A unique local-scope identifier for distinguishing edge applications within a specific deployment environment.]]></Description>
