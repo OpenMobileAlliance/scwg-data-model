@@ -77,7 +77,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>4 bytes</RangeEnumeration>
 				<Units>s</Units>
 				<Description><![CDATA[Duration since last boot in integer seconds.]]></Description>
@@ -87,7 +87,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>1 bytes</RangeEnumeration>
 				<Units />
 				<Description><![CDATA[Number of CPU Cores.]]></Description>
@@ -97,7 +97,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Scaled integer value representing the CPU centi-load (Load = Value / 100) averaged over the last 1 minute.]]></Description>
@@ -107,7 +107,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units>%</Units>
 				<Description><![CDATA[Scaled integer value representing deci-percentage (Usage = Value / 10) of current CPU utilization (user+system time).]]></Description>
@@ -117,7 +117,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units>B</Units>
 				<Description><![CDATA[Total physical RAM in bytes.]]></Description>
@@ -127,7 +127,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units>B</Units>
 				<Description><![CDATA[Total Available RAM (free + reclaimable) in bytes that can be used without swapping.]]></Description>
@@ -137,7 +137,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of runnable tasks, useful to detect CPU contention and scheduler saturation.]]></Description>
@@ -147,7 +147,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of tasks blocked waiting on I/O. Sustained non-zero values can indicate I/O stalls, deadlocks or driver/storage issues.]]></Description>
@@ -157,7 +157,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units />
 				<Description><![CDATA[Number of context swicthes per second, useful to detect thread thrashing, lock contention, excessive interrupts, or scheduling overhead.]]></Description>
@@ -167,7 +167,7 @@ https://www.omaspecworks.org/about/intellectual-property-rights/
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>Integer</Type>
+				<Type>Unsigned Integer</Type>
 				<RangeEnumeration />
 				<Units>%</Units>
 				<Description><![CDATA[Scaled integer file handle utilization in centi-percent of limit: used_int = (open / max) * 10000. used_pct = used_int / 100.
