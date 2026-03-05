@@ -279,7 +279,7 @@ If the LwM2M client is connected to multiple servers, this resource SHOULD be ha
        <Item ID="4050">
         <Name>AppID</Name>
         <Operations>RW</Operations>
-        <Type>Unsigned Integer</Type>
+        <Type>Integer</Type>
         <RangeEnumeration>2 bytes</RangeEnumeration>       
         <Units></Units>        
         <Submitter>OMA</Submitter>
