@@ -79,8 +79,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Total system RAM in megabytes.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Total system RAM in kibibytes.]]></Description>
             </Item>
             <Item ID="4">
                 <Name>RAM Used</Name>
@@ -89,8 +89,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Currently used RAM in megabytes (excluding cached and buffered memory).]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Currently used RAM in kibibytes (excluding cached and buffered memory).]]></Description>
             </Item>
             <Item ID="5">
                 <Name>RAM Free</Name>
@@ -99,8 +99,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Currently free/available RAM in megabytes.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Currently free/available RAM in kibibytes.]]></Description>
             </Item>
             <Item ID="6">
                 <Name>RAM Cached</Name>
@@ -109,8 +109,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[RAM used for filesystem cache in megabytes. This memory can be reclaimed if needed.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[RAM used for filesystem cache in kibibytes. This memory can be reclaimed if needed.]]></Description>
             </Item>
             <Item ID="7">
                 <Name>RAM Buffers</Name>
@@ -119,8 +119,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[RAM used for kernel buffers in megabytes.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[RAM used for kernel buffers in kibibytes.]]></Description>
             </Item>
             <Item ID="8">
                 <Name>Swap Total</Name>
@@ -129,8 +129,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Total swap space in megabytes. Returns 0 if swap is not configured.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Total swap space in kibibytes. Returns 0 if swap is not configured.]]></Description>
             </Item>
             <Item ID="9">
                 <Name>Swap Used</Name>
@@ -139,8 +139,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Currently used swap space in megabytes. High swap usage may indicate memory pressure.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Currently used swap space in kibibytes. High swap usage may indicate memory pressure.]]></Description>
             </Item>
             <Item ID="10">
                 <Name>Load Average 1min</Name>

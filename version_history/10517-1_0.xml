@@ -79,8 +79,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Total storage capacity in megabytes.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Total storage capacity in kibibytes.]]></Description>
             </Item>
             <Item ID="4">
                 <Name>Used Capacity</Name>
@@ -89,8 +89,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Currently used storage space in megabytes.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Currently used storage space in kibibytes.]]></Description>
             </Item>
             <Item ID="5">
                 <Name>Available Capacity</Name>
@@ -99,8 +99,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>MB</Units>
-                <Description><![CDATA[Available free storage space in megabytes.]]></Description>
+                <Units>KiB</Units>
+                <Description><![CDATA[Available free storage space in kibibytes.]]></Description>
             </Item>
             <Item ID="6">
                 <Name>Usage Percentage</Name>
