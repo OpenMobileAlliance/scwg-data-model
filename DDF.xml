@@ -616,9 +616,24 @@ The Resources of that Object are based on the OMA LwM2M set of reusable Resource
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>3.0</Ver>
-        <DDF>20.xml</DDF>
+        <DDF>version_history/20-3_0.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>20</ObjectID>
+        <URN>urn:oma:lwm2m:oma:20:3.1</URN>
+        <Name>Event Log</Name>
+        <Description>The Event Log Object is a multiple Instances Object defined for logging data in a straightforward and generic way.
+The Resources of that Object are based on the OMA LwM2M set of reusable Resources dedicated to logging event activity.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>3.1</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
         <TS></TS>
         <TSLink>1</TSLink>
     </Item>
@@ -4656,89 +4671,89 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <TSLink>0</TSLink>
     </Item>
     <Item>
-       <ObjectID>3600</ObjectID>
-       <URN>urn:oma:lwm2m:ext:3600</URN>
-       <Name>AppMessaging</Name>
-       <Description>This LwM2M Object provides a bi-directional messaging facility for applications. Distinct resources are defined for Client to Server messaging and Server to Client messaging.</Description>
-       <Owner>TBD</Owner>
-       <Source>1</Source>
-       <Ver>1.0</Ver>
-       <DDF></DDF>
-       <Vorto></Vorto>
-       <DDFLink>0</DDFLink>
-       <TS></TS>
-       <TSLink>0</TSLink>
-   </Item>
-   <Item>
-       <ObjectID>3601</ObjectID>
-       <URN>urn:oma:lwm2m:ext:3601</URN>
-       <Name>HostMonitoring</Name>
-       <Description>This LwM2M Object provides a facility for monitoring resource utilization of a GEISA edge environment.</Description>
-       <Owner>TBD</Owner>
-       <Source>1</Source>
-       <Ver>1.0</Ver>
-       <DDF>3601.xml</DDF>
-       <Vorto></Vorto>
-       <DDFLink>1</DDFLink>
-       <TS></TS>
-       <TSLink>0</TSLink>
-   </Item>
-   <Item>
-       <ObjectID>3602</ObjectID>
-       <URN>urn:oma:lwm2m:ext:3602</URN>
-       <Name>TBD</Name>
-       <Description>Reservation for 3602</Description>
-       <Owner>TBD</Owner>
-       <Source>1</Source>
-       <Ver>1.0</Ver>
-       <DDF></DDF>
-       <Vorto></Vorto>
-       <DDFLink>0</DDFLink>
-       <TS></TS>
-       <TSLink>0</TSLink>
-   </Item>
-   <Item>
-       <ObjectID>3603</ObjectID>
-       <URN>urn:oma:lwm2m:ext:3603</URN>
-       <Name>TBD</Name>
-       <Description>Reservation for 3603</Description>
-       <Owner>TBD</Owner>
-       <Source>1</Source>
-       <Ver>1.0</Ver>
-       <DDF></DDF>
-       <Vorto></Vorto>
-       <DDFLink>0</DDFLink>
-       <TS></TS>
-       <TSLink>0</TSLink>
-   </Item>
-   <Item>
-       <ObjectID>3604</ObjectID>
-       <URN>urn:oma:lwm2m:ext:3604</URN>
-       <Name>TBD</Name>
-       <Description>Reservation from 3604 to 3614</Description>
-       <Owner>TBD</Owner>
-       <Source>1</Source>
-       <Ver>1.0</Ver>
-       <DDF></DDF>
-       <Vorto></Vorto>
-       <DDFLink>0</DDFLink>
-       <TS></TS>
-       <TSLink>0</TSLink>
-   </Item>
-   <Item>
-       <ObjectID>3614</ObjectID>
-       <URN>urn:oma:lwm2m:ext:3614</URN>
-       <Name>TBD</Name>
-       <Description>Reservation from 3604 to 3614</Description>
-       <Owner>TBD</Owner>
-       <Source>1</Source>
-       <Ver>1.0</Ver>
-       <DDF></DDF>
-       <Vorto></Vorto>
-       <DDFLink>0</DDFLink>
-       <TS></TS>
-       <TSLink>0</TSLink>
-   </Item>
+        <ObjectID>3600</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3600</URN>
+        <Name>AppMessaging</Name>
+        <Description>This LwM2M Object provides a bi-directional messaging facility for applications. Distinct resources are defined for Client to Server messaging and Server to Client messaging.</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3601</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3601</URN>
+        <Name>HostMonitoring</Name>
+        <Description>This LwM2M Object provides a facility for monitoring resource utilization of a GEISA edge environment. Distinct resources are defined for monitoring CPU, RAM, Storage and Bandwidth utilization.</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3602</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3602</URN>
+        <Name>TBD</Name>
+        <Description>Reservation for 3602</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3603</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3603</URN>
+        <Name>TBD</Name>
+        <Description>Reservation for 3603</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3604</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3604</URN>
+        <Name>TBD</Name>
+        <Description>Reservation from 3604 to 3614</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3614</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3614</URN>
+        <Name>TBD</Name>
+        <Description>Reservation from 3604 to 3614</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
     <Item>
         <ObjectID>10241</ObjectID>
         <URN>urn:oma:lwm2m:x:10241</URN>
@@ -7281,6 +7296,34 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
         <DDF></DDF>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10538</ObjectID>
+        <URN>urn:oma:lwm2m:x:10538</URN>
+        <Name>Acceleration Tamper Alarm</Name>
+        <Description>This alarm is raised when acceleration is detected by e.g. an accelerometer</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+        <Item>
+        <ObjectID>10539</ObjectID>
+        <URN>urn:oma:lwm2m:x:10539</URN>
+        <Name>Modem Firmware Update</Name>
+        <Description>Modem firmware update object.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10539.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
