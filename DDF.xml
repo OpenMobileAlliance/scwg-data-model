@@ -616,9 +616,24 @@ The Resources of that Object are based on the OMA LwM2M set of reusable Resource
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>3.0</Ver>
-        <DDF>20.xml</DDF>
+        <DDF>version_history/20-3_0.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>20</ObjectID>
+        <URN>urn:oma:lwm2m:oma:20:3.1</URN>
+        <Name>Event Log</Name>
+        <Description>The Event Log Object is a multiple Instances Object defined for logging data in a straightforward and generic way.
+The Resources of that Object are based on the OMA LwM2M set of reusable Resources dedicated to logging event activity.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>3.1</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
         <TS></TS>
         <TSLink>1</TSLink>
     </Item>
@@ -7281,6 +7296,34 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
         <DDF></DDF>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10538</ObjectID>
+        <URN>urn:oma:lwm2m:x:10538</URN>
+        <Name>Acceleration Tamper Alarm</Name>
+        <Description>This alarm is raised when acceleration is detected by e.g. an accelerometer</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+        <Item>
+        <ObjectID>10539</ObjectID>
+        <URN>urn:oma:lwm2m:x:10539</URN>
+        <Name>Modem Firmware Update</Name>
+        <Description>Modem firmware update object.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10539.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
