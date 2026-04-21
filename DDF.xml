@@ -7072,31 +7072,29 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
     </Item>
     <Item>
        <ObjectID>10523</ObjectID>
-        <URN>urn:oma:lwm2m:x:10523</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10523
-        </Description>
-        <Owner>TBD</Owner>
+        <URN>urn:oma:lwm2m:x:10523:1.0</URN>
+        <Name>Send Scheduler Control</Name>
+        <Description>Controls buffering behaviour of the send scheduler.</Description>
+        <Owner>EDF R&amp;D</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10523.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10524</ObjectID>
-        <URN>urn:oma:lwm2m:x:10524</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10524
-        </Description>
-        <Owner>TBD</Owner>
+        <URN>urn:oma:lwm2m:x:10524:1.0</URN>
+        <Name>Send Scheduler Sampling Rules</Name>
+        <Description>Defines per-resource sampling rules used by the send scheduler.</Description>
+        <Owner>EDF R&amp;D</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10524.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
