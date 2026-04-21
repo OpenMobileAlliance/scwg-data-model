@@ -6908,165 +6908,154 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
     <Item>
        <ObjectID>10512</ObjectID>
         <URN>urn:oma:lwm2m:x:10512</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10512
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Starlink Terminal</Name>
+        <Description>This LwM2M Object provides comprehensive management and monitoring of Starlink Gen3 satellite internet terminals. It enables remote access to telemetry, configuration, and control of Starlink dishes, including obstruction monitoring, alignment tracking, speed testing, and performance metrics. The object interfaces with the Starlink terminal via gRPC protocol (default endpoint: 192.168.100.1:9200).</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10512.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10513</ObjectID>
         <URN>urn:oma:lwm2m:x:10513</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10513
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Router Management</Name>
+        <Description>This LwM2M Object provides core router configuration and management capabilities for OpenWRT-based routers. It enables remote management of network parameters including LAN/WAN configuration, DHCP server settings, DNS configuration, and firewall controls. The object supports common router functions essential for IoT gateway deployments.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10513.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10514</ObjectID>
         <URN>urn:oma:lwm2m:x:10514</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10514
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Ethernet Interface</Name>
+        <Description>This LwM2M Object provides management and monitoring of Ethernet network interfaces on OpenWRT-based routers. It supports multiple instances for managing different physical Ethernet ports (WAN, LAN, etc.), providing real-time statistics on link status, speed, duplex mode, and traffic counters. Essential for monitoring router connectivity and network performance.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10514.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10515</ObjectID>
         <URN>urn:oma:lwm2m:x:10515</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10515
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>GPIO Control</Name>
+        <Description>This LwM2M Object provides control and monitoring of GPIO (General Purpose Input/Output) pins on embedded devices. It supports management of LEDs, buttons, and general-purpose GPIO pins commonly found on OpenWRT routers. Multiple instances allow control of different GPIO resources, enabling remote status indication, user input monitoring, and custom hardware interfacing.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10515.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10516</ObjectID>
         <URN>urn:oma:lwm2m:x:10516</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10516
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>USB Management</Name>
+        <Description>This LwM2M Object provides monitoring and control of USB ports on embedded devices and routers. It supports multiple instances for managing different USB ports, providing information about connected devices, power management, and port status. Useful for OpenWRT routers with USB ports for storage, modems, or other peripherals.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10516.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10517</ObjectID>
         <URN>urn:oma:lwm2m:x:10517</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10517
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Storage Management</Name>
+        <Description>This LwM2M Object provides management and monitoring of storage devices on embedded systems and routers. It supports multiple instances for managing different storage devices including internal NAND/NVMe, SD cards, and USB storage. Enables remote monitoring of storage capacity, usage, and basic management operations like mount/unmount and formatting.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10517.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10518</ObjectID>
         <URN>urn:oma:lwm2m:x:10518</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10518
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>System Monitor</Name>
+        <Description>This LwM2M Object provides comprehensive system monitoring for embedded Linux devices and routers. It reports CPU usage, memory statistics, thermal status, and system load metrics. Essential for remote monitoring of device health, performance, and resource utilization on OpenWRT-based routers and IoT gateways.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10518.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10519</ObjectID>
         <URN>urn:oma:lwm2m:x:10519</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10519
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Hardware Watchdog</Name>
+        <Description>This LwM2M Object provides monitoring and management of hardware watchdog timers commonly found in embedded systems and IoT devices. The watchdog is a hardware timer that must be periodically reset ("petted") to prevent system reboot. This object enables remote configuration and monitoring of watchdog behavior, particularly useful for OpenWRT-based routers and similar embedded Linux devices.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10519.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10520</ObjectID>
         <URN>urn:oma:lwm2m:x:10520</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10520
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>MIKROBUS</Name>
+        <Description>This LwM2M Object provides comprehensive management and monitoring of MIKROBUS sockets and Click boards. MIKROBUS is a standard for add-on boards that defines a specific pinout with SPI, I2C, UART, PWM, GPIO, and analog interfaces. This object enables remote configuration of interfaces, GPIO control, Click board detection, and power management. Supports multiple instances for managing multiple MIKROBUS sockets on a device.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10520.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10521</ObjectID>
         <URN>urn:oma:lwm2m:x:10521</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10521
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>Firewall Config</Name>
+        <Description>This LwM2M Object provides management of firewall rules for OpenWRT-based routers. It enables remote configuration of iptables/nftables firewall rules including port filtering, IP address filtering, protocol filtering, and zone-based firewall management. Each instance represents a single firewall rule that can be created, modified, enabled/disabled, or deleted remotely. The object integrates with OpenWRT's UCI configuration system and supports both IPv4 and IPv6 rules.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10521.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
        <ObjectID>10522</ObjectID>
         <URN>urn:oma:lwm2m:x:10522</URN>
-        <Name>TBD</Name>
-        <Description>Reservation 10522
-        </Description>
-        <Owner>TBD</Owner>
+        <Name>PoE Management</Name>
+        <Description>This LwM2M Object provides monitoring and control of Power over Ethernet (PoE) functionality on devices that support IEEE 802.3af/at/bt standards. It enables remote monitoring of PoE power input including voltage, current, and power consumption. For Powered Devices (PD), it provides visibility into the power being received. The object supports detection of PoE standard in use (af, at, bt), power class negotiation, and power cycling for recovery scenarios.</Description>
+        <Owner>Walt Technologies</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF></DDF>
+        <DDF>10522.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
