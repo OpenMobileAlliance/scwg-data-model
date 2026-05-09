@@ -137,9 +137,7 @@ Arguments definitions are described in the table below.]]></Description>
 5 : Common Log Format(RFC6872)
 [6..99] reserved
 [100..255] vendor specific data format
- ]]></Description>        
-        <TS>http://www.openmobilealliance.org/documents/whitepapers/OMA-ORG-LightweightM2M_Guidelines_Logging_Reusable_Resources-V1_0-20171129-A.pdf</TS>       
-   </Description>
+ ]]></Description>
 			</Item>
 			<Item ID="4016">
 				<Name>LogDataIncremental</Name>
