@@ -4,7 +4,7 @@
 FILE INFORMATION
 
 OMA Permanent Document
-   File: OMA-SUP-XML_LWM2M_EventLog-V2_1-20240123-A
+   File: OMA-SUP-XML_LWM2M_EventLog-V3_0-20250714-A
    Path: https://openmobilealliance.org/release/LwM2M_EventLog/
 
 OMNA LwM2M Registry
@@ -15,7 +15,7 @@ NORMATIVE INFORMATION
 
   Information about this file can be found in the latest revision of
 
-    OMA-TS-LwM2M_EventLog-V2_1
+    OMA-TS-LwM2M_EventLog-V3_0
 
   This is available at https://www.openmobilealliance.org/release/LwM2M_EventLog/
 
@@ -23,7 +23,7 @@ NORMATIVE INFORMATION
 
 LEGAL DISCLAIMER
 
-  Copyright 2024 Open Mobile Alliance.
+  Copyright 2024-2025 Open Mobile Alliance.
 
   Redistribution and use in source and binary forms, with or without
   modification, are permitted provided that the following conditions
@@ -57,7 +57,7 @@ LEGAL DISCLAIMER
 
 -->
 
-<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M-v1_1.xsd">
 
 	<Object ObjectType="MODefinition">
 		<Name>Event Log</Name>
