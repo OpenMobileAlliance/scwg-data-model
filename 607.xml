@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BSD-3 Clause License
+
+  Copyright 2025 Open Mobile Alliance.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  1. Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+  3. Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived
+  from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+  FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+  COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+  ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.
+
+  The above license is used as a license under copyright only.  Please
+  reference the OMA IPR Policy for patent licensing terms:
+  https://www.omaspecworks.org/about/intellectual-property-rights/
+
+-->
+<LWM2MObject
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.openmobilealliance.org/tech/profiles/LWM2M.xsd">
+
+    <Object>
+        <Name>Radar Sensor</Name>
+        <Description>
+            Embedded radar sensor object providing presence, approach, and departure
+            detection, with configurable sensitivity and response timing.
+        </Description>
+        <ObjectID>607</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:oma:607</ObjectURN>
+		<LWM2MVersion>1.0</LWM2MVersion>
+		<ObjectVersion>1.0</ObjectVersion>
+        <MultipleInstances>false</MultipleInstances>
+        <Mandatory>false</Mandatory>
+    </Object>
+
+    <Resources>
+
+        <Item ID="0">
+            <Name>Detection State</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>true</Mandatory>
+            <Type>Integer</Type>
+            <RangeEnumeration>
+                <Enumeration Value="0">No detection</Enumeration>
+                <Enumeration Value="1">Approach</Enumeration>
+                <Enumeration Value="2">Leave</Enumeration>
+            </RangeEnumeration>
+            <Description>Current detection state of the radar sensor</Description>
+        </Item>
+
+        <Item ID="1">
+            <Name>Detection Counter</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Description>Total number of detection events</Description>
+        </Item>
+
+        <Item ID="2">
+            <Name>Timestamp</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Time</Type>
+            <Description>Epoch timestamp (local time) of last detection</Description>
+        </Item>
+
+        <Item ID="3">
+            <Name>Application Type</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>String</Type>
+            <Description>Application using this radar sensor</Description>
+        </Item>
+
+        <Item ID="4">
+            <Name>Approach Sensitivity</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Range>0..100</Range>
+            <Units>%</Units>
+            <Description>Sensitivity for approach detection</Description>
+        </Item>
+
+        <Item ID="5">
+            <Name>Leave Sensitivity</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Range>0..100</Range>
+            <Units>%</Units>
+            <Description>Sensitivity for leave detection</Description>
+        </Item>
+
+        <Item ID="6">
+            <Name>Approach Response Time</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Range>16..2048</Range>
+            <Units>ms</Units>
+            <Description>Response time for approach detection</Description>
+        </Item>
+
+        <Item ID="7">
+            <Name>Leave Response Time</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Range>16..2048</Range>
+            <Units>ms</Units>
+            <Description>Response time for leave detection</Description>
+        </Item>
+
+        <Item ID="8">
+            <Name>Target Velocity</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Float</Type>
+            <Units>m/s</Units>
+            <Description>Velocity threshold used by the radar sensor for detection</Description>
+        </Item>
+
+        <Item ID="9">
+            <Name>Environment Noise Filter</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Boolean</Type>
+            <Description>Enable or disable environmental noise filtering</Description>
+        </Item>
+
+        <Item ID="10">
+            <Name>Hourly Detection Counter</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Description>Number of detections within the last hour</Description>
+        </Item>
+
+        <Item ID="11">
+            <Name>Sensor Communication Failure</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Boolean</Type>
+            <Description>Indicates a radar sensor communication failure</Description>
+        </Item>
+
+    </Resources>
+
+</LWM2MObject>
