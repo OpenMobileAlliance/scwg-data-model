@@ -117,7 +117,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to commission a new Matter device to this controller's fabric. Argument: QR code payload (format: "MT:...") or manual pairing code (11-21 digit string). Initiates full commissioning workflow: device discovery (BLE/WiFi/Thread), PASE session establishment, device attestation verification, network credential provisioning, operational discovery, and CASE session setup. Progress updates reported via Controller Status resource. On success, creates new Matter Device Object (33451) instance. Typical duration: 30-120 seconds depending on device type and network. Example QR: "MT:Y.K9042C00KA0648G00", Example manual code: "34970112332".]]></Description>
@@ -127,7 +127,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to remove a commissioned Matter device from this controller's fabric. Argument: Node ID as hex string (e.g., "0000000000000001"). Closes active CASE sessions, removes device from fabric, deletes operational credentials, and removes corresponding Matter Device Object (33451) instance. Device must be recommissioned to rejoin the fabric. Updates Commissioned Devices Count. Persists removal across controller restarts. Use when decommissioning devices or troubleshooting device communication issues.]]></Description>
@@ -137,7 +137,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to start Matter device discovery. Scans for uncommissioned devices using BLE, mDNS (operational discovery), and Thread (if enabled). Default timeout: 30 seconds. Discovered devices are logged but not automatically commissioned. Use before commissioning to verify device visibility. Discovery results include: vendor ID, product ID, discriminator, device name. Does not modify controller state. Can be executed while other operations are in progress. Useful for diagnostics and device identification.]]></Description>
@@ -147,7 +147,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to enable Thread Border Router functionality. Requires Thread network configuration in Thread Network Object (33452). Creates Thread network using configured parameters (network name, PAN ID, channel, keys). Starts Border Router services for Thread routing, external commissioning, and service discovery. Sets Thread Enabled to true. Essential for commissioning Thread-based Matter devices (door locks, sensors, battery-powered devices). Requires compatible hardware with Thread radio. Check Thread Network Object Border Router State for status.]]></Description>

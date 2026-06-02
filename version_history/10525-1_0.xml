@@ -129,7 +129,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration>1..20</RangeEnumeration>
-                <Units>pings</Units>
+                <Units></Units>
                 <Description><![CDATA[Number of consecutive failed health check pings before triggering failover (range: 1-20 pings). Lower values enable faster failover but may cause unnecessary switches due to transient issues. Higher values provide stability but slower failure detection. Common values: 3 for responsive failover, 5 for balanced, 10 for very stable connections. Health checks typically run every 10 seconds.]]></Description>
             </Item>
             <Item ID="9">
@@ -217,7 +217,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to apply the current failover policy configuration to the system. Validates interface existence, writes mwan3 configuration files, sets up health check monitors for all configured WANs, configures policy-based routing tables, applies load balancing weights (if applicable), and restarts the mwan3 service. After execution, check Policy State to verify successful application. This operation may briefly interrupt active connections during mwan3 restart.]]></Description>
@@ -227,7 +227,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to manually trigger immediate failover to the next available WAN interface in priority order (primary → secondary → tertiary). Overrides health check status and forces interface switch. Useful for maintenance scenarios, testing failover procedures, or manually recovering from detected issues. Updates Current Active WAN, Last Failover Time, and increments Failover Count. Does not change policy configuration.]]></Description>
@@ -237,7 +237,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to manually trigger immediate failback to the primary WAN interface. Overrides failback mode and delay settings. Fails if primary interface is not available. Useful for completing maintenance windows, testing primary link restoration, or ending manual failover mode. Particularly important when Failback Mode is set to Manual (2), as this is the only way to restore primary WAN usage.]]></Description>
@@ -247,7 +247,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to reset failover statistics counters. Clears Failover Count to 0 and resets Last Failover Time to 0. Does not affect current operational state or active interface. Use at the start of new monitoring periods, after maintenance, or when beginning SLA measurement intervals. Provides clean baseline for tracking failover events and system stability.]]></Description>

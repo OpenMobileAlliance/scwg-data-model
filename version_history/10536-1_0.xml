@@ -139,7 +139,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration>68..65535</RangeEnumeration>
-                <Units>bytes</Units>
+                <Units>B</Units>
                 <Description><![CDATA[Maximum Transmission Unit in bytes for this route (range: 68-65535). Defines the largest packet size that can be transmitted without fragmentation. Default is typically 1500 for Ethernet. Smaller values may be needed for tunnels, VPNs, or networks with MTU constraints. Setting this value overrides the interface default MTU for packets using this route. Useful for Path MTU Discovery optimization.]]></Description>
             </Item>
             <Item ID="10">
@@ -147,7 +147,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to add the configured route to the kernel routing table. Uses the 'ip route add' command to create the route based on the configured destination, netmask, gateway, interface, metric, table, and other parameters. If the route already exists, the operation will succeed without modification. Optionally saves the route to UCI configuration for persistence across reboots. After execution, check the State resource to verify the route was added successfully (State=1).]]></Description>
@@ -157,7 +157,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to remove the configured route from the kernel routing table. Uses the 'ip route del' command to delete the route matching the configured destination network and table ID. If the route does not exist, the operation will succeed without error. The route will remain in the instance configuration but will be marked as State=0 (Down). To permanently remove the route, delete the LwM2M object instance after executing this resource.]]></Description>
@@ -167,7 +167,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to flush (remove) all routes from the specified routing table. Uses the 'ip route flush table <table_id>' command to clear all entries from the routing table specified in the Table resource. WARNING: This is a destructive operation that will remove all routes in the table, potentially causing loss of network connectivity. Use with caution, especially on the main routing table (254). Typically used for table cleanup or before applying a complete new routing configuration.]]></Description>
@@ -177,7 +177,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to reload and synchronize the instance's route configuration from the kernel routing table. Uses the 'ip route show' command to query current routes and updates all resource values (destination, gateway, interface, metric, state, etc.) to match the kernel state. Useful for detecting external changes to the routing table made by other processes or for recovering from synchronization errors. Does not modify the kernel routing table, only updates the LwM2M object instance to reflect current reality.]]></Description>
