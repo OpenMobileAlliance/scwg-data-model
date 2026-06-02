@@ -247,7 +247,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to start active health check probing for the interface. Activates the asynchronous probe worker thread which will execute probes at the configured interval. Probing continues until explicitly stopped via Stop Probing or the instance is destroyed. Can be called multiple times (idempotent). Safe to call on already-active probing.]]></Description>
@@ -257,7 +257,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to stop active health check probing for the interface. Suspends the probe worker thread, no further probes will be executed until Start Probing is called again. Existing statistics and health state are preserved. Useful for temporarily disabling monitoring without destroying the instance configuration. Can be called multiple times (idempotent).]]></Description>
@@ -267,7 +267,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to immediately trigger a health check probe outside the normal interval schedule. Does not affect the regular probe schedule - the next scheduled probe will still occur at the configured interval. Useful for manual verification, troubleshooting, or forcing immediate health state updates after configuration changes. Probe result updates all statistics and health state normally.]]></Description>
@@ -277,7 +277,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to reset all statistical counters and measurements to their initial values: Average/Min/Max Latency=0.0, Jitter=0.0, Packet Loss=0.0%, Consecutive Failures/Successes=0, Total Probes=0, Failed Probes=0. Clears latency history used for jitter calculation. Does not affect current health state, probe configuration, or active probing status. Useful after configuration changes or to establish new baseline measurements.]]></Description>

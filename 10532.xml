@@ -179,7 +179,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>bps</Units>
+                <Units>bit/s</Units>
                 <Description><![CDATA[Serial communication baud rate (typically 115200 for EZSP, 115200 for Z-Stack). Must match coordinator configuration. Common values: 9600, 19200, 38400, 57600, 115200. Incorrect baud rate prevents communication.]]></Description>
             </Item>
             <Item ID="14">

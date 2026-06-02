@@ -189,7 +189,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>bytes</Units>
+                <Units>B</Units>
                 <Description><![CDATA[Total number of bytes transmitted through the VPN tunnel (read-only). Cumulative counter that increments as data is sent through the VPN interface. Useful for monitoring VPN usage, bandwidth consumption, and detecting abnormal traffic patterns. Counter resets when the VPN connection is terminated.]]></Description>
             </Item>
             <Item ID="15">
@@ -199,7 +199,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units>bytes</Units>
+                <Units>B</Units>
                 <Description><![CDATA[Total number of bytes received through the VPN tunnel (read-only). Cumulative counter that increments as data is received through the VPN interface. Useful for monitoring VPN usage, bandwidth consumption, and network activity analysis. Counter resets when the VPN connection is terminated.]]></Description>
             </Item>
             <Item ID="16">
@@ -267,7 +267,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to establish the VPN connection. Validates configuration, saves settings to UCI, generates protocol-specific configuration files, and initiates the VPN tunnel. The Connection State resource will change to Connecting (1) and then Connected (2) upon success, or Error (4) upon failure. Check Last Error resource if connection fails. Automatically applies kill switch and split tunnel settings if configured.]]></Description>
@@ -277,7 +277,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to terminate the VPN connection. Gracefully shuts down the VPN tunnel, removes kill switch firewall rules, clears routing table entries, and stops the VPN client process. The Connection State resource will change to Disconnecting (3) and then Disconnected (0). Safe to execute even if VPN is not connected. Traffic statistics (Bytes Sent, Bytes Received, Uptime) are reset to zero.]]></Description>
@@ -287,7 +287,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to restart the VPN connection. Performs a full disconnect followed by reconnect sequence. Useful for applying configuration changes, recovering from connection issues, or refreshing credentials. Equivalent to executing Disconnect followed by Connect, but handled atomically. The connection will briefly enter Disconnecting (3) and Disconnected (0) states before transitioning to Connecting (1) and Connected (2).]]></Description>
@@ -297,7 +297,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to generate new cryptographic keys. For WireGuard, generates a new private/public key pair and updates the Private Key and Public Key resources. The new public key must be provided to the VPN server administrator for peer configuration. For other protocols, this operation may not be supported. Useful for key rotation and security maintenance. The VPN should be disconnected before regenerating keys to avoid connection disruption.]]></Description>

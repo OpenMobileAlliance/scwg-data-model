@@ -157,7 +157,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to apply the current LAN and DHCP configuration to the system. Writes all configured settings to OpenWRT's UCI configuration files (/etc/config/network and /etc/config/dhcp), commits the changes, and restarts the network and dnsmasq services to activate the new configuration. After execution, the Configuration Status resource will indicate success or failure.]]></Description>

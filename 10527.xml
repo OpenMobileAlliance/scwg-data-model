@@ -119,7 +119,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration>1..9608</RangeEnumeration>
-                <Units>Mbps</Units>
+                <Units>Mbit/s</Units>
                 <Description><![CDATA[Current transmit data rate from access point to client in Mbps. Dynamically adjusted based on signal quality and channel conditions. Maximum rates depend on WiFi standard: 802.11b (11 Mbps), 802.11g (54 Mbps), 802.11n (600 Mbps), 802.11ac (6933 Mbps), 802.11ax (9608 Mbps).]]></Description>
             </Item>
             <Item ID="8">
@@ -129,7 +129,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Mandatory>Optional</Mandatory>
                 <Type>Integer</Type>
                 <RangeEnumeration>1..9608</RangeEnumeration>
-                <Units>Mbps</Units>
+                <Units>Mbit/s</Units>
                 <Description><![CDATA[Current receive data rate from client to access point in Mbps. Dynamically adjusted based on signal quality and channel conditions. May differ from TX rate due to asymmetric channel conditions or client capabilities.]]></Description>
             </Item>
             <Item ID="9">
@@ -237,7 +237,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to forcibly disconnect the client from the access point. Sends 802.11 deauthentication frame via hostapd, immediately terminating the client's association. Client may automatically reconnect unless blocked by ACL. Useful for enforcing policies, troubleshooting, or manually managing network access.]]></Description>
@@ -247,7 +247,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to add the client's MAC address to the hostapd deny ACL (blacklist) and immediately disconnect it. Prevents the client from reconnecting until removed from the blacklist. Also sets ACL State to "denied". Useful for blocking unauthorized or problematic devices. Blacklist persists in hostapd runtime configuration but may need to be saved to UCI for persistence across reboots.]]></Description>
@@ -257,7 +257,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to add the client's MAC address to the hostapd accept ACL (whitelist). When whitelist mode is enabled on the AP, only whitelisted clients can connect. Also removes the MAC from deny list if present and sets ACL State to "allowed". Useful for implementing strict MAC-based authentication. Whitelist persists in hostapd runtime configuration but may need to be saved to UCI for persistence across reboots.]]></Description>
@@ -267,7 +267,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to steer the client to a different frequency band using 802.11v BSS Transition Management Request. Parameter should be target band: "2.4", "5", or "6" (as string). Sends BSS-TM request frame suggesting the client transition to an AP on the specified band. Requires 802.11v support in both AP (hostapd) and client device. Client may honor or ignore the request. Useful for load balancing and optimizing dual-band/tri-band deployments by moving capable clients to less congested bands.]]></Description>

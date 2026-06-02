@@ -177,7 +177,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute high-level device interaction commands. Supported commands: "ping" (test connectivity, update device info), "refresh" (query current state), "on" (turn on OnOff devices), "off" (turn off), "toggle" (toggle OnOff state). Arguments: simple command string. Returns immediately; check Reachable and Last Seen for result. Provides convenient shortcuts for common operations without requiring detailed cluster knowledge. Use for simple device control and health checks. Example: write "toggle" to toggle a light bulb's on/off state.]]></Description>
@@ -187,7 +187,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to read any Matter cluster attribute. Argument format: "endpoint:cluster:attribute" (decimal or hex). Examples: "1:6:0" (read OnOff state from endpoint 1, cluster 0x0006, attribute 0x0000), "1:0x0008:0x0000" (read current level). Establishes CASE session if needed. Returns attribute value in type-appropriate format. Supports all Matter attribute types. Use for custom device queries not covered by standard resources. Requires knowledge of Matter cluster specifications. Check Matter cluster library documentation for cluster/attribute IDs.]]></Description>
@@ -197,7 +197,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to write any Matter cluster attribute. Argument format: "endpoint:cluster:attribute:value". Examples: "1:6:0:1" (turn on), "1:8:0:128" (set level to 50%), "1:0x0300:0x0000:120" (set hue). Validates attribute is writable per Matter specification. Establishes CASE session if needed. Returns success/failure. Some attributes require specific permissions or conditions. Use for advanced device control and configuration. Requires knowledge of Matter cluster specifications and attribute data types.]]></Description>
@@ -207,7 +207,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute to send any Matter cluster command. Argument format: "endpoint:cluster:command:args" where args is JSON-encoded command fields. Examples: "1:6:1:" (OnOff On command), "1:8:0:{\"level\":128,\"transitionTime\":10}" (MoveToLevel), "1:0x0101:0:{\"pinCode\":\"1234\"}" (DoorLock Lock). Establishes CASE session if needed. Returns command response if applicable. Supports all Matter command types. Essential for device actuation beyond simple on/off. Requires knowledge of Matter cluster command specifications and parameter encoding.]]></Description>

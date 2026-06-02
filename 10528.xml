@@ -227,7 +227,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to immediately perform a channel scan and survey. Updates Channel Survey, Neighboring APs, Channel Utilization, Noise Floor, and Interference Level resources with current RF environment data. Scan operation may take 5-30 seconds depending on number of channels. Non-disruptive to connected clients. Does not change channels. Use before manual channel changes or to get current spectrum status.]]></Description>
@@ -237,7 +237,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to run the Automatic Channel Selection (ACS) algorithm. Performs a full channel scan, analyzes all available channels using the ACS scoring algorithm, and updates Best Channel recommendations for all bands. If Auto Channel is enabled, automatically switches to the optimal channel. Otherwise, only updates recommendations. ACS algorithm considers neighbor count, utilization, noise floor, DFS requirements, and historical performance. May cause brief client disconnection if channel change occurs.]]></Description>
@@ -247,7 +247,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to manually set the wireless channel. Argument format: "channel:width" (e.g., "36:80" for channel 36 with 80MHz width) or just "channel" (e.g., "36" to keep current width). Immediately applies the channel change and reloads wireless configuration. Causes brief client disconnection (typically 1-3 seconds). Validates channel number and width. For DFS channels, triggers Channel Availability Check (CAC). Updates Current Channel and Current Width resources.]]></Description>
@@ -257,7 +257,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <Operations>E</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
-                <Type>Opaque</Type>
+                <Type></Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Execute this resource to enable Dynamic Frequency Selection (DFS) support on this radio. Updates OpenWRT wireless configuration to enable DFS, sets DFS Enabled to true, and reloads wireless. Enables the router to use DFS channels (52-144 in 5GHz) which are typically less congested. After enabling, use Optimize Channel to select the best channel including DFS options. Required for regulatory compliance in many regions for full 5GHz spectrum access.]]></Description>
