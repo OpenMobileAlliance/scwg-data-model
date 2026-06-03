@@ -48,7 +48,7 @@
         <ObjectURN>urn:oma:lwm2m:oma:607</ObjectURN>
 		<LWM2MVersion>1.0</LWM2MVersion>
 		<ObjectVersion>1.0</ObjectVersion>
-        <MultipleInstances>false</MultipleInstances>
+        <MultipleInstances>true</MultipleInstances>
         <Mandatory>false</Mandatory>
     </Object>
 
