@@ -77,23 +77,27 @@
             <Description>Total number of detection events</Description>
         </Item>
 
-        <Item ID="2">
-            <Name>Timestamp</Name>
-            <Operations>R</Operations>
-            <MultipleInstances>false</MultipleInstances>
-            <Mandatory>false</Mandatory>
-            <Type>Time</Type>
-            <Description>Epoch timestamp (local time) of last detection</Description>
-        </Item>
+		<Item ID="5518">
+			<Name>Timestamp</Name>
+			<Operations>R</Operations>
+			<MultipleInstances>Single</MultipleInstances>
+			<Mandatory>Optional</Mandatory>
+			<Type>Time</Type>
+			<RangeEnumeration></RangeEnumeration>
+			<Units></Units>
+			<Description>Epoch timestamp (local time) of last detection</Description>
+		</Item>
 
-        <Item ID="3">
-            <Name>Application Type</Name>
-            <Operations>R</Operations>
-            <MultipleInstances>false</MultipleInstances>
-            <Mandatory>false</Mandatory>
-            <Type>String</Type>
-            <Description>Application using this radar sensor</Description>
-        </Item>
+		<Item ID="5750">
+			<Name>Application Type</Name>
+			<Operations>RW</Operations>
+			<MultipleInstances>Single</MultipleInstances>
+			<Mandatory>Optional</Mandatory>
+			<Type>String</Type>
+			<RangeEnumeration></RangeEnumeration>
+			<Units></Units>
+			<Description>Application using this radar sensor</Description>
+		</Item>
 
         <Item ID="4">
             <Name>Approach Sensitivity</Name>
