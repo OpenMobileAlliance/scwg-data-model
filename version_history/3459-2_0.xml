@@ -292,6 +292,16 @@
 				<Units/>
 				<Description><![CDATA[Custom user defined description.]]></Description>
 			</Item>
+			<Item ID="25">
+				<Name>Local Sensor Publisher EUI</Name>
+				<Operations>RW</Operations>
+				<MultipleInstances>Multiple</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units/>
+				<Description><![CDATA[PUBLISHER ONLY 64-bit unique identifier associated to the specific Publisher ID, to be included when publishing new data [default=empty]]]></Description>
+			</Item>
 		</Resources>
 		<Description2/>
 	</Object>
