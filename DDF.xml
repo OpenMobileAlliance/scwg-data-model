@@ -4579,6 +4579,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3459-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3459</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3459:2.0</URN>
+        <Name>Distributed Sensor Group</Name>
+        <Description>The uCIFI Distributed Sensor Group allows to configure a device to publish or subscribe to device-to-device communication.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>2.0</Ver>
         <DDF>3459.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4593,6 +4607,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3460-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3460</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3460:1.1</URN>
+        <Name>Distributed Sensor Message</Name>
+        <Description>The uCIFI Distributed Sensor Message provides the format of data being exchanged within the Distributed Sensor Group communication.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
         <DDF>3460.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4621,6 +4649,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.1</Ver>
+        <DDF>version_history/3461-1_1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3461</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3461:1.2</URN>
+        <Name>Sensor Group Device Capabilities</Name>
+        <Description>This object is used to notify the user about the capabilities supported by the device in respect to Distributed Sensot Group functionality.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.2</Ver>
         <DDF>3461.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
