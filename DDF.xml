@@ -619,7 +619,7 @@ The Resources of that Object are based on the OMA LwM2M set of reusable Resource
         <DDF>20.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS></TS>
+        <TS>https://www.openmobilealliance.org/release/LwM2M_EventLog/V3_0-20250714-A/OMA-TS-LWM2M_EventLog-V3_0-20250714-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     <Item>
@@ -1015,6 +1015,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <DDF>602.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>607</ObjectID>
+        <URN>urn:oma:lwm2m:oma:607</URN>
+        <Name>TBD</Name>
+        <Description>Reservation</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
@@ -4537,6 +4551,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3457-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3457</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3457:1.1</URN>
+        <Name>Program Manager</Name>
+        <Description>The uCIFI Program Manager describes the scheduling capabilities of the device, referring to Program Schedulers, Program Functions, Calendar Rules and Filters.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
         <DDF>3457.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4565,6 +4593,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3459-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3459</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3459:2.0</URN>
+        <Name>Distributed Sensor Group</Name>
+        <Description>The uCIFI Distributed Sensor Group allows to configure a device to publish or subscribe to device-to-device communication.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>2.0</Ver>
         <DDF>3459.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4579,6 +4621,20 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3460-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3460</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3460:1.1</URN>
+        <Name>Distributed Sensor Message</Name>
+        <Description>The uCIFI Distributed Sensor Message provides the format of data being exchanged within the Distributed Sensor Group communication.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
         <DDF>3460.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4593,6 +4649,34 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <Owner>uCIFI</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
+        <DDF>version_history/3461-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3461</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3461:1.1</URN>
+        <Name>Sensor Group Device Capabilities</Name>
+        <Description>This object is used to notify the user about the capabilities supported by the device in respect to Distributed Sensot Group functionality.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>version_history/3461-1_1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3461</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3461:1.2</URN>
+        <Name>Sensor Group Device Capabilities</Name>
+        <Description>This object is used to notify the user about the capabilities supported by the device in respect to Distributed Sensot Group functionality.</Description>
+        <Owner>uCIFI</Owner>
+        <Source>1</Source>
+        <Ver>1.2</Ver>
         <DDF>3461.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -4674,6 +4758,90 @@ Instances of this Object are linked from Instances of Object 0 using the OSCORE 
         <URN>urn:oma:lwm2m:ext:3599</URN>
         <Name>TBD</Name>
         <Description>Reservation from 3500 to 3599</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3600</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3600</URN>
+        <Name>AppMessaging</Name>
+        <Description>This LwM2M Object provides a bi-directional messaging facility for applications. Distinct resources are defined for Client to Server messaging and Server to Client messaging.</Description>
+        <Owner>GEISA</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>3600.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3601</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3601</URN>
+        <Name>HostMonitoring</Name>
+        <Description>This LwM2M Object provides a facility for monitoring resource utilization of a GEISA edge environment.</Description>
+        <Owner>GEISA</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>3601.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3602</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3602</URN>
+        <Name>AppAccounting</Name>
+        <Description>This LwM2M Object provides facilities for service flow level accounting and throttling per application.</Description>
+        <Owner>GEISA</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>3602.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3603</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3603</URN>
+        <Name>TBD</Name>
+        <Description>Reservation for 3603</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3604</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3604</URN>
+        <Name>TBD</Name>
+        <Description>Reservation from 3604 to 3614</Description>
+        <Owner>TBD</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3614</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3614</URN>
+        <Name>TBD</Name>
+        <Description>Reservation from 3604 to 3614</Description>
         <Owner>TBD</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
@@ -6815,6 +6983,429 @@ The Object also allows steering the device towards a particular PLMN, or, to a p
         <Source>2</Source>
         <Ver>1.0</Ver>
         <DDF>10509.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10510</ObjectID>
+        <URN>urn:oma:lwm2m:x:10510</URN>
+        <Name>TBD</Name>
+        <Description>Reservation 10510
+        </Description>
+        <Owner>TBD</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10511</ObjectID>
+  		<URN>urn:oma:lwm2m:x:10511</URN>
+        <Name>Cellular Connectivity Diagnostics</Name>
+        <Description>Provides standardized diagnostic information about the current cellular connection, including serving cell identifiers, PLMN details, signal quality metrics, and SIM/eSIM parameters to support interoperability and troubleshooting.</Description>
+        <Owner>AVSystem</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10511.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10512</ObjectID>
+        <URN>urn:oma:lwm2m:x:10512</URN>
+        <Name>Starlink Terminal</Name>
+        <Description>This LwM2M Object provides comprehensive management and monitoring of Starlink Gen3 satellite internet terminals. It enables remote access to telemetry, configuration, and control of Starlink dishes, including obstruction monitoring, alignment tracking, speed testing, and performance metrics. The object interfaces with the Starlink terminal via gRPC protocol (default endpoint: 192.168.100.1:9200).</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10512.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10513</ObjectID>
+        <URN>urn:oma:lwm2m:x:10513</URN>
+        <Name>Router Management</Name>
+        <Description>This LwM2M Object provides core router configuration and management capabilities for OpenWRT-based routers. It enables remote management of network parameters including LAN/WAN configuration, DHCP server settings, DNS configuration, and firewall controls. The object supports common router functions essential for IoT gateway deployments.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10513.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10514</ObjectID>
+        <URN>urn:oma:lwm2m:x:10514</URN>
+        <Name>Ethernet Interface</Name>
+        <Description>This LwM2M Object provides management and monitoring of Ethernet network interfaces on OpenWRT-based routers. It supports multiple instances for managing different physical Ethernet ports (WAN, LAN, etc.), providing real-time statistics on link status, speed, duplex mode, and traffic counters. Essential for monitoring router connectivity and network performance.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10514.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10515</ObjectID>
+        <URN>urn:oma:lwm2m:x:10515</URN>
+        <Name>GPIO Control</Name>
+        <Description>This LwM2M Object provides control and monitoring of GPIO (General Purpose Input/Output) pins on embedded devices. It supports management of LEDs, buttons, and general-purpose GPIO pins commonly found on OpenWRT routers. Multiple instances allow control of different GPIO resources, enabling remote status indication, user input monitoring, and custom hardware interfacing.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10515.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10516</ObjectID>
+        <URN>urn:oma:lwm2m:x:10516</URN>
+        <Name>USB Management</Name>
+        <Description>This LwM2M Object provides monitoring and control of USB ports on embedded devices and routers. It supports multiple instances for managing different USB ports, providing information about connected devices, power management, and port status. Useful for OpenWRT routers with USB ports for storage, modems, or other peripherals.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10516.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10517</ObjectID>
+        <URN>urn:oma:lwm2m:x:10517</URN>
+        <Name>Storage Management</Name>
+        <Description>This LwM2M Object provides management and monitoring of storage devices on embedded systems and routers. It supports multiple instances for managing different storage devices including internal NAND/NVMe, SD cards, and USB storage. Enables remote monitoring of storage capacity, usage, and basic management operations like mount/unmount and formatting.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10517.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10518</ObjectID>
+        <URN>urn:oma:lwm2m:x:10518</URN>
+        <Name>System Monitor</Name>
+        <Description>This LwM2M Object provides comprehensive system monitoring for embedded Linux devices and routers. It reports CPU usage, memory statistics, thermal status, and system load metrics. Essential for remote monitoring of device health, performance, and resource utilization on OpenWRT-based routers and IoT gateways.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10518.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10519</ObjectID>
+        <URN>urn:oma:lwm2m:x:10519</URN>
+        <Name>Hardware Watchdog</Name>
+        <Description>This LwM2M Object provides monitoring and management of hardware watchdog timers commonly found in embedded systems and IoT devices. The watchdog is a hardware timer that must be periodically reset ("petted") to prevent system reboot. This object enables remote configuration and monitoring of watchdog behavior, particularly useful for OpenWRT-based routers and similar embedded Linux devices.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10519.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10520</ObjectID>
+        <URN>urn:oma:lwm2m:x:10520</URN>
+        <Name>MIKROBUS</Name>
+        <Description>This LwM2M Object provides comprehensive management and monitoring of MIKROBUS sockets and Click boards. MIKROBUS is a standard for add-on boards that defines a specific pinout with SPI, I2C, UART, PWM, GPIO, and analog interfaces. This object enables remote configuration of interfaces, GPIO control, Click board detection, and power management. Supports multiple instances for managing multiple MIKROBUS sockets on a device.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10520.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10521</ObjectID>
+        <URN>urn:oma:lwm2m:x:10521</URN>
+        <Name>Firewall Config</Name>
+        <Description>This LwM2M Object provides management of firewall rules for OpenWRT-based routers. It enables remote configuration of iptables/nftables firewall rules including port filtering, IP address filtering, protocol filtering, and zone-based firewall management. Each instance represents a single firewall rule that can be created, modified, enabled/disabled, or deleted remotely. The object integrates with OpenWRT's UCI configuration system and supports both IPv4 and IPv6 rules.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10521.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10522</ObjectID>
+        <URN>urn:oma:lwm2m:x:10522</URN>
+        <Name>PoE Management</Name>
+        <Description>This LwM2M Object provides monitoring and control of Power over Ethernet (PoE) functionality on devices that support IEEE 802.3af/at/bt standards. It enables remote monitoring of PoE power input including voltage, current, and power consumption. For Powered Devices (PD), it provides visibility into the power being received. The object supports detection of PoE standard in use (af, at, bt), power class negotiation, and power cycling for recovery scenarios.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10522.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10523</ObjectID>
+        <URN>urn:oma:lwm2m:x:10523:1.0</URN>
+        <Name>Send Scheduler Control</Name>
+        <Description>Controls buffering behaviour of the send scheduler.</Description>
+        <Owner>EDF R&amp;D</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10523.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10524</ObjectID>
+        <URN>urn:oma:lwm2m:x:10524:1.0</URN>
+        <Name>Send Scheduler Sampling Rules</Name>
+        <Description>Defines per-resource sampling rules used by the send scheduler.</Description>
+        <Owner>EDF R&amp;D</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10524.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10525</ObjectID>
+        <URN>urn:oma:lwm2m:x:10525</URN>
+        <Name>WAN Failover Policy</Name>
+        <Description>Multi-WAN failover configuration. Priority-based WAN selection, failover triggers, and load balancing policies.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10525.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10526</ObjectID>
+        <URN>urn:oma:lwm2m:x:10526</URN>
+        <Name>Multi-WAN Health Check</Name>
+        <Description>WAN connection health monitoring with ping/HTTP checks, latency tracking, and automatic failover triggers.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10526.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10527</ObjectID>
+        <URN>urn:oma:lwm2m:x:10527</URN>
+        <Name>WiFi Client Management</Name>
+        <Description>Connected WiFi client tracking and management. Client statistics, signal strength, bandwidth usage, and access control.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10527.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10528</ObjectID>
+        <URN>urn:oma:lwm2m:x:10528</URN>
+        <Name>WiFi Channel Optimization</Name>
+        <Description>WiFi channel selection and optimization. Interference monitoring, automatic channel selection, and DFS management.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10528.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10529</ObjectID>
+        <URN>urn:oma:lwm2m:x:10529</URN>
+        <Name>Matter Bridge</Name>
+        <Description>Matter protocol bridge functionality. Enables LwM2M-managed gateways to expose devices to Matter fabric ecosystems.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10529.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10530</ObjectID>
+        <URN>urn:oma:lwm2m:x:10530</URN>
+        <Name>Matter Device</Name>
+        <Description>Individual Matter device representation. Device information, commissioning status, and endpoint management.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10530.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10531</ObjectID>
+        <URN>urn:oma:lwm2m:x:10531</URN>
+        <Name>Thread Network</Name>
+        <Description>Thread mesh network management. Border router configuration, network formation, and mesh topology monitoring.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10531.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10532</ObjectID>
+        <URN>urn:oma:lwm2m:x:10532</URN>
+        <Name>Zigbee Coordinator</Name>
+        <Description>Zigbee network coordinator management. Network formation, device joining, EZSP/Z-Stack support, and mesh orchestration.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10532.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10533</ObjectID>
+        <URN>urn:oma:lwm2m:x:10533</URN>
+        <Name>Zigbee Device</Name>
+        <Description>Individual Zigbee device representation. Device info, status monitoring, ZCL attribute access, and device management.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10533.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10534</ObjectID>
+        <URN>urn:oma:lwm2m:x:10534</URN>
+        <Name>Zigbee Group</Name>
+        <Description>Zigbee group management for collective device control. Group membership, scene management, and ZCL group commands.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10534.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10535</ObjectID>
+        <URN>urn:oma:lwm2m:x:10535</URN>
+        <Name>LAN Configuration</Name>
+        <Description>LAN network configuration. DHCP server settings, IP ranges, DNS relay, and client lease management.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10535.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10536</ObjectID>
+        <URN>urn:oma:lwm2m:x:10536</URN>
+        <Name>Routing Table</Name>
+        <Description>IP routing table management. Static routes, default gateway, policy-based routing, and route metrics.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10536.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10537</ObjectID>
+        <URN>urn:oma:lwm2m:x:10537</URN>
+        <Name>VPN Configuration</Name>
+        <Description>VPN tunnel configuration. OpenVPN, WireGuard, IPsec support with connection management and status monitoring.</Description>
+        <Owner>Walt Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10537.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+       <ObjectID>10538</ObjectID>
+        <URN>urn:oma:lwm2m:x:10538</URN>
+        <Name>Acceleration Tamper Alarm</Name>
+        <Description><![CDATA[This alarm is raised when acceleration is detected by e.g. an accelerometer]]></Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10538.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+        <Item>
+        <ObjectID>10539</ObjectID>
+        <URN>urn:oma:lwm2m:x:10539</URN>
+        <Name>Modem Firmware Update</Name>
+        <Description>Modem firmware update object.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10539.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>

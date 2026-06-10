@@ -1,4 +1,3 @@
-
 # LwM2M Registry
 This public repository is dedicated to store and register new LwM2M Objects and Reusable Resources.
   
@@ -31,6 +30,8 @@ Please contact helpdesk@omaorg.org in case you encounter any problem during the 
 * This Object file will be used in step 4 when creating the Pull Request
 
 > Note: OMA provides an Editor tool called <a href="https://devtoolkit.openmobilealliance.org/OEditor/default.aspx" target="_blank">OMA LwM2M Editor / Validator</a>. The editor facilitates the creation of a valid OMA LwM2M Object.
+
+> LICENSE: Please refer to [License / README folder](./License/README.md) for information about the license declaration that must be included in each Object registered in the LwM2M Registry.
 
 ## 4. Create a Pull Request
 * The Submitter needs to create a Pull Request against the designated branch
@@ -153,3 +154,4 @@ The following section describes these steps in detail.
  * If the validation has failed, then the LwM2M Validator will insert a table with the list of errors identified during the validation
    * The [Error Codes](https://wiki.openmobilealliance.org/display/TOOL/Validation+Error+Code), indicate who should resolve the problem, the Submitter or the Maintainer
  * If the validation has passed, then a green label will be displayed, and the IPSO group will be able to review your submission.
+
