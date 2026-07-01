@@ -64,6 +64,7 @@
                 <Enumeration Value="0">No detection</Enumeration>
                 <Enumeration Value="1">Approach</Enumeration>
                 <Enumeration Value="2">Leave</Enumeration>
+                <Enumeration Value="3">Generic detection</Enumeration>
             </RangeEnumeration>
             <Description>Current detection state of the radar sensor</Description>
         </Item>
@@ -178,6 +179,24 @@
             <Mandatory>false</Mandatory>
             <Type>Boolean</Type>
             <Description>Indicates a radar sensor communication failure</Description>
+        </Item>
+
+        <Item ID="12">
+            <Name>Approach Detection Counter</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Description>Total number of approach detection events</Description>
+        </Item>
+		
+        <Item ID="13">
+            <Name>Leave Detection Counter</Name>
+            <Operations>R</Operations>
+            <MultipleInstances>false</MultipleInstances>
+            <Mandatory>false</Mandatory>
+            <Type>Unsigned Integer</Type>
+            <Description>Total number of leave detection events</Description>
         </Item>
 
     </Resources>
