@@ -144,7 +144,7 @@ If unkown, an empty string is returned]]></Description>
 				<Operations>E</Operations>
 				<Mandatory>Optional</Mandatory>
 				<MultipleInstances>Single</MultipleInstances>
-				<Description><![CDATA[Perform sensor calibration based on vendor specific requirements. For example some implementations may require the car to be parked, whilst some others may require the car to be vacant. ]]></Description>
+				<Description><![CDATA[Perform sensor calibration based on vendor specific requirements. For example some implementations may require the vehicle to be parked, whilst some others may require the vehicle to be vacant. ]]></Description>
 				<Units></Units>
 			</Item>
 			<Item ID="5518">
